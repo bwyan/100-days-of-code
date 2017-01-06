@@ -38,3 +38,20 @@ I also fixed a bug that caused the click handlers to return NaN sometimes.
 * Bonus: replace all uses of jQuery with vanilla JS.
 
 **Link to work:** [Tic Tac Toe - 2017-01-04](https://codepen.io/bwyan/full/Kawaab/)
+
+### Day 3: January 5, 2017
+
+**Today's Progress**: Light refactoring and cleanup on my Tic Tac Toe game:
+
+* Replaced some instances of let with const.
+* Re-ordered some of the code so similar functions were closer together.
+
+Then, I spent quite a while on making the UI look nicer, including moving the scoreboard below the gameboard and tweaking the type styles, creating a dialog for the player and symbol choices (vs having them appear at the bottom of the screen), styling the choice buttons, etc.
+
+Finally, I fixed a few bugs that could allow players to cheat if they are fast clickers and playing against the computer.
+
+**Thoughts:** I took a needed break from refactoring, and will start on my next project (the Simon game) before spending more time on Tic Tac Toe.
+
+**Todo:** Start working on Simon and take a break from Tic Tac Toe.
+
+**Link to work:** [Tic Tac Toe - 2017-01-05](https://codepen.io/bwyan/full/QdwYwK/)
