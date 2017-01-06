@@ -55,3 +55,19 @@ Finally, I fixed a few bugs that could allow players to cheat if they are fast c
 **Todo:** Start working on Simon and take a break from Tic Tac Toe.
 
 **Link to work:** [Tic Tac Toe - 2017-01-05](https://codepen.io/bwyan/full/QdwYwK/)
+
+### Day 4: January 6, 2017
+
+**Today's Progress**: Started the HTML and CSS for my next Free Code Camp project: a Simon game:
+
+* Four buttons with different colors.
+* Each button fills 1/4 of the screen.
+* Clicked/pressed state.
+
+**Thoughts:** I decided to try building the layout with flexbox, and was really happy with how simple it was. I would need to learn how to support older browsers if this were a production app, but as a project, it's fun to try the latest and greatest.
+
+**Todo:** Add the other UI elements that are needed: Counter, start button, strict mode toggle, off/on switch.
+
+Once that's done, I'll start bulding the game logic in JS.
+
+**Link to work:** [Free Code Camp – 2017-01-05 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
