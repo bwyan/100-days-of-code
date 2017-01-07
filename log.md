@@ -70,4 +70,16 @@ Finally, I fixed a few bugs that could allow players to cheat if they are fast c
 
 Once that's done, I'll start bulding the game logic in JS.
 
-**Link to work:** [Free Code Camp – 2017-01-05 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+**Link to work:** [Free Code Camp – 2017-01-06 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 5: January 7, 2017
+
+**Today's Progress**: Worked on styling for my Simon game. The board is now round and responsive, and there's a pad in the center for the center.
+
+**Thoughts:** At some sizes, there's a small hairline between buttons that started appearing once I centered the settings-container. I would like to figure out how to make that hairline go away.
+
+**Todo:** Add the other UI elements that are needed: Counter, start button, strict mode toggle, off/on switch.
+
+Once that's done, I'll start bulding the game logic in JS.
+
+**Link to work:** [Free Code Camp – 2017-01-07 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
