@@ -83,3 +83,19 @@ Once that's done, I'll start bulding the game logic in JS.
 Once that's done, I'll start bulding the game logic in JS.
 
 **Link to work:** [Free Code Camp – 2017-01-07 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 6: January 8, 2017
+
+**Today's Progress**: Worked on Simon:
+
+* New colors and tweaked gradients.
+* Clicking the pads now plays audio (haven't tested on touch devices).
+* I worked on some HTML for the other controls, but I've hidden them from today's share until they're finished.
+
+**Thoughts:** Having fun doing this project with vanilla JS only.
+
+**Todo:** Finish the other controls: Counter, start button, strict mode toggle, off/on switch.
+
+Once that's done, I'll start bulding the game logic in JS.
+
+**Link to work:** [Free Code Camp – 2017-01-08 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
