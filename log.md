@@ -99,3 +99,24 @@ Once that's done, I'll start bulding the game logic in JS.
 Once that's done, I'll start bulding the game logic in JS.
 
 **Link to work:** [Free Code Camp – 2017-01-08 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 7: January 9, 2017
+
+**Today's Progress**: Worked on Simon:
+
+* Finished the layout for the counter, start button, and strict button.
+* Adjusted some metrics for a nicer look at very small and very large screen sizes.
+* I started work on the on/off switch, but it's not included in today's share.
+
+**Thoughts:** I was hoping to get the controls built more quickly and then start the JS tomorrow, but I ran into a snag with the layout tonight. It looks like I'll need another day on the UI.
+
+**Todo:**
+Tomorrow
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+
+Future
+- [ ] Work on the game logic in JS.
+
+**Link to work:** [Free Code Camp – 2017-01-09 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
