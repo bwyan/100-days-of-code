@@ -120,3 +120,23 @@ Future
 - [ ] Work on the game logic in JS.
 
 **Link to work:** [Free Code Camp – 2017-01-09 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 8: January 10, 2017
+
+**Today's Progress**: I took a break from CSS and started working on sequence playback in JS.
+
+**Thoughts:** I need a polyfill for the `.click()` method (vanilla JS, not jQuery) that works on mobile devices.
+
+I struggled to get `setInterval()` or `setTimeout()` working with my sequence player, so I'll have to figure that out before moving on. I'm starting to think that writing the actual game logic will be easier than getting the basic methods done.
+
+**Todo:**
+Tomorrow
+- [ ] Finish the sequence playback in JS so that the notes don't all play at once.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+
+**Link to work:** [Free Code Camp – 2017-01-10 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
