@@ -140,3 +140,21 @@ Future
 - [ ] Add an on/off switch.
 
 **Link to work:** [Free Code Camp – 2017-01-10 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 9: January 11, 2017
+
+**Today's Progress**: I cleaned up the JS and continued work on my sequence player for the Simon game.
+
+**Thoughts:** I coded at lunch and on the bus home, and wasn't nearly as productive as working in my office at home. I'd rather put some focused time in at home in the future vs trying to squeeze it in here and there.
+
+**Todo:**
+Tomorrow
+- [ ] Finish the sequence playback in JS so that the notes don't all play at once (hopefully for real this time).
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+
+**Link to work:** [Free Code Camp – 2017-01-11 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
