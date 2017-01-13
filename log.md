@@ -158,3 +158,22 @@ Future
 - [ ] Add an on/off switch.
 
 **Link to work:** [Free Code Camp – 2017-01-11 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
+
+### Day 10: January 12, 2017
+
+**Today's Progress**: I got my sequence player to work, so now I can pass an array of pad numbers and have the computer play them back. You can try it yourself by clicking the start button.
+
+**Thoughts:** I'm happy I got the app to play back a sequence, but I'm not happy with the timing of the audio playback. Sometimes a few notes are clustered together, and other times there's a gap larger than the duration I've passed to `setInterval`. I used data URIs in place of external URLs, which helped reduce the lag from loading, but there's more I need to do to get reliable and fast playback.
+
+**Todo:**
+Tomorrow
+- [ ] Hook up the playback events to the UI so that the board lights up when the sounds play.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Tweak the sequence player to improve its timing.
+ 
+**Link to work:** [Free Code Camp – 2017-01-12 – Simon](https://codepen.io/bwyan/full/Grqgvr/)
