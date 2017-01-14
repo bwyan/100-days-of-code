@@ -163,6 +163,8 @@ Future
 
 **Today's Progress**: I got my sequence player to work, so now I can pass an array of pad numbers and have the computer play them back. You can try it yourself by clicking the start button.
 
+- [x] Finish the sequence playback in JS so that the notes don't all play at once (hopefully for real this time).
+
 **Thoughts:** I'm happy I got the app to play back a sequence, but I'm not happy with the timing of the audio playback. Sometimes a few notes are clustered together, and other times there's a gap larger than the duration I've passed to `setInterval`. I used data URIs in place of external URLs, which helped reduce the lag from loading, but there's more I need to do to get reliable and fast playback.
 
 **Todo:**
@@ -177,3 +179,25 @@ Future
 - [ ] Tweak the sequence player to improve its timing.
  
 **Link to work:** [Free Code Camp – 2017-01-12 – Simon](https://codepen.io/bwyan/full/Grqgvr/)
+
+### Day 11: January 13, 2017
+
+**Today's Progress**: 
+
+- [x] Hook up the playback events to the UI so that the board lights up when the sounds play.
+
+**Thoughts:** I'm happy I got the app to play back a sequence, but I'm not happy with the timing of the audio playback. Sometimes a few notes are clustered together, and other times there's a gap larger than the duration I've passed to `setInterval`. I used data URIs in place of external URLs, which helped reduce the lag from loading, but there's more I need to do to get reliable and fast playback.
+
+**Todo:**
+Tomorrow
+- [ ] Try MIDI.js to replace the poorly timed audio events, or look for another option.
+- [ ] Implement a better option to improve audio event timing.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Tweak the sequence player to improve its timing.
+ 
+**Link to work:** [Free Code Camp – 2017-01-13 – Simon](https://codepen.io/bwyan/full/EZyENw/)
