@@ -201,3 +201,40 @@ Future
 - [ ] Tweak the sequence player to improve its timing.
  
 **Link to work:** [Free Code Camp – 2017-01-13 – Simon](https://codepen.io/bwyan/full/EZyENw/)
+
+### Day 12: January 14, 2017
+
+**Today's Progress**: Today I learned about the Web Audio API and created a simple sound player. Due to XHR/CORS issues I once again added the sounds as base64 URIs instead of URLs.
+
+**Thoughts:** The Web Audio API gives my audio geek side a chance to really shine, but even better is it's the solution to my playback timing woes. Before integrating today's work into my Simon game, I'm going to try using oscillators instead of audio files. I think it will make the game more Simon-like, and allow the sounds to work better as the playback rate increases.
+
+**Todo:**
+Tomorrow
+- [ ] Create a demo app where I try Web Audio API oscillators in place of audio files.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+ 
+**Link to work:** [Free Code Camp – 2017-01-13 – Simon](https://codepen.io/bwyan/full/EZyENw/)
+
+### Day 13: January 15, 2017
+
+**Today's Progress**: Today I built a simple "instrument" with the Web Audio API. It has two buttons and each has a different sound.
+
+**Thoughts:** This is the system I'll add to my Simon game tomorrow, for the reasons I mentioned in yesterday's log.
+
+**Todo:**
+Tomorrow
+- [ ] Replace `<audio>` elements in my Simon game with web audio oscillators.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Tweak the sequence player to improve its timing.
+ 
+**Link to work:** [Free Code Camp – 2017-01-13 – Simon](https://codepen.io/bwyan/full/EZyENw/)
