@@ -237,4 +237,4 @@ Future
 - [ ] Add an on/off switch.
 - [ ] Tweak the sequence player to improve its timing.
  
-**Link to work:** [Free Code Camp – 2017-01-13 – Simon](https://codepen.io/bwyan/full/EZyENw/)
+**Link to work:** [Web Audio API Test](https://github.com/bwyan/100-days-of-code/blob/master/oscillator.html)
