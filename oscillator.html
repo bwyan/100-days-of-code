@@ -35,38 +35,32 @@ pad2Gain.gain.value = 0;
 pad2.start(0);
 
 const play1 = document.querySelector('.play1');
-play1.addEventListener('mousedown', startPlayback1);
-play1.addEventListener('mouseup', stopPlayback1);
-play1.addEventListener('mouseleave', stopPlayback1); 
-
 const play2 = document.querySelector('.play2');
+const play3 = document.querySelector('.play2');
+const play4 = document.querySelector('.play2');
+
+function addSoundEventListeners(asdf) {
+	asdf.addEventListener('mousedown', startPlayback);
+	asdf.addEventListener('mouseup', stopPlayback);
+	asdf.addEventListener('mouseleave', stopPlayback); 
+}
+
+addSoundEventListeners(play1);
+
+
 play2.addEventListener('mousedown', startPlayback2);
 play2.addEventListener('mouseup', stopPlayback2);
 play2.addEventListener('mouseleave', stopPlayback2); 
 
 
-// play.onclick = toggleGain;
-
-// function toggleGain() {
-//   if(play.id == '') {
-//     pad1Gain.gain.value = .3;
-//     play.id = "playing";
-//     play.innerHTML = "Play";
-//   } else {
-//     pad1Gain.gain.value = 0;
-//     play.id = "";
-//     play.innerHTML = "Stop";
-//   }
-// }
 
 
-
-function startPlayback1() {
-  pad1Gain.gain.value = .3;
+function startPlayback() {
+  this.gain.value = .3;
 }
 
-function stopPlayback1() {
-  pad1Gain.gain.value = 0;
+function stopPlayback() {
+  this.gain.value = 0;
 }
 
 function startPlayback2() {

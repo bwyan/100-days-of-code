@@ -238,3 +238,24 @@ Future
 - [ ] Tweak the sequence player to improve its timing.
  
 **Link to work:** [Web Audio API Test](https://github.com/bwyan/100-days-of-code/blob/master/oscillator.html)
+
+### Day 14: January 16, 2017
+
+**Today's Progress**: Today I built a sequencer into my Simon game, using the Web Audio API. It is not elegant and doesn't work on touch devices, but it's a start.
+
+**Thoughts:** I have tons of repeating code so I'll be refactoring for a bit. The actual sequencer still uses `setTimout` instead of taking advantage of the web audio API, but I'm generating sound in the browser (really cool!) and my timing issues are fixed!
+
+**Todo:**
+Tomorrow
+- [ ] Remove the code that was playing audio files.
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Get it working on iOS and Android.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Tweak the sequence player to improve its timing.
+ 
+**Link to work:** [Free Code Camp – 2017-01-16 – Simon](https://codepen.io/bwyan/full/ygVYve)
