@@ -259,3 +259,24 @@ Future
 - [ ] Tweak the sequence player to improve its timing.
  
 **Link to work:** [Free Code Camp – 2017-01-16 – Simon](https://codepen.io/bwyan/full/ygVYve)
+
+### Day 15: January 17, 2017
+
+**Today's Progress**: Today I tried to build a Voice to replace my individual routines for building voices. I got hung up on how to initialize the oscillators from within `Voice`, so I wasn't able to complete my task. I will try again tomorrow with another approach.
+
+**Thoughts:** I thought I had a good grasp on ES5 "classes", but I tried using ES6 class syntax and couldn't make it work. Bummer…
+
+**Todo:**
+Tomorrow
+- [ ] Remove the code that was playing audio files.
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Get it working on iOS and Android.
+
+Future
+- [ ] Work on the game logic in JS.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Tweak the sequence player to improve its timing.
+ 
+**Link to work:** [Free Code Camp – 2017-01-16 – Simon](https://codepen.io/bwyan/full/ygVYve)
