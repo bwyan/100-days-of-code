@@ -280,3 +280,23 @@ Future
 - [ ] Tweak the sequence player to improve its timing.
  
 **Link to work:** [Free Code Camp – 2017-01-16 – Simon](https://codepen.io/bwyan/full/ygVYve)
+
+### Day 16: January 16, 2017
+
+**Today's Progress**: Today I almost took the day off because I was so frustrated by yesterday's lack of progress. Instead I started with some easy code cleanup and writing helper functions like `addToCPUSequence()`. Before I knew it, I had built a good chunk of the game code, added a gap between notes in the sequencer, and 
+
+**Thoughts:** This goes to show the importance of showing up every day and forcing myself to code even when I don't feel like it (or is it *especially* when I don't feel like it). I made a lot of progress and it makes me excited to continue tomorrow instead of dreading the possibly of another unproductive coding session.
+
+**Todo:**
+Tomorrow
+- [ ] Finish the game logic: enforce strict mode, add the counter, speed up playback after 5 pads are played.
+
+Future
+- [ ] Disable click handlers while the sequence is playing.
+- [ ] Get it working on iOS and Android.
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+ 
+**Link to work:** [Free Code Camp – 2017-01-18 – Simon](https://codepen.io/bwyan/full/wggmQO)
