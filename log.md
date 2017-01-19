@@ -281,7 +281,7 @@ Future
  
 **Link to work:** [Free Code Camp – 2017-01-16 – Simon](https://codepen.io/bwyan/full/ygVYve)
 
-### Day 16: January 16, 2017
+### Day 16: January 18, 2017
 
 **Today's Progress**: Today I almost took the day off because I was so frustrated by yesterday's lack of progress. Instead I started with some easy code cleanup and writing helper functions like `addToCPUSequence()`. Before I knew it, I had built a good chunk of the game code, added a gap between notes in the sequencer, and 
 
