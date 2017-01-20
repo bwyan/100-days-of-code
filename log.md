@@ -283,7 +283,7 @@ Future
 
 ### Day 16: January 18, 2017
 
-**Today's Progress**: Today I almost took the day off because I was so frustrated by yesterday's lack of progress. Instead I started with some easy code cleanup and writing helper functions like `addToCPUSequence()`. Before I knew it, I had built a good chunk of the game code, added a gap between notes in the sequencer, and 
+**Today's Progress**: Today I almost took the day off because I was so frustrated by yesterday's lack of progress. Instead I started with some easy code cleanup and writing helper functions like `addToCPUSequence()`. Before I knew it, I had built a good chunk of the game code, added a gap between notes in the sequencer, and more.
 
 **Thoughts:** This goes to show the importance of showing up every day and forcing myself to code even when I don't feel like it (or is it *especially* when I don't feel like it). I made a lot of progress and it makes me excited to continue tomorrow instead of dreading the possibly of another unproductive coding session.
 
@@ -300,3 +300,25 @@ Future
 - [ ] Add an on/off switch.
  
 **Link to work:** [Free Code Camp – 2017-01-18 – Simon](https://codepen.io/bwyan/full/wggmQO)
+
+### Day 17: January 19, 2017
+
+**Today's Progress**: I finished everything I set out to do yesterday.
+
+- [x] Finish the game logic: enforce strict mode, add the counter, speed up playback after 5 [also 9 and 13] pads are played.
+
+**Thoughts:** 
+
+**Todo:**
+Tomorrow
+- [ ] Remove a couple of quick 'n dirty uses of jQuery so everything is vanilla JS.
+- [ ] Disable click handlers while the sequence is playing.
+
+Future
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Get the buttons working on iOS and Android.
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+ 
+**Link to work:** [Free Code Camp – 2017-01-19 – Simon](https://codepen.io/bwyan/full/wggmQO)
