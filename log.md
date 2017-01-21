@@ -322,3 +322,24 @@ Future
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
  
 **Link to work:** [Free Code Camp – 2017-01-19 – Simon](https://codepen.io/bwyan/full/wggmQO)
+
+### Day 18: January 20, 2017
+
+**Today's Progress**: I finished everything I set out to do yesterday.
+- [x] Remove a couple of quick 'n dirty uses of jQuery so everything is vanilla JS.
+- [x] Disable click handlers while the sequence is playing (sort of).
+- [x] Get the sound working on iOS.
+
+**Thoughts:** I disabled the click handlers that track user input and could interfere with gameplay, but it's possible to play sounds while Simon is playing a sequence. Disabling click handlers (actually `mousedown` and `touchstart` events) for the synth and visuals would require a ton of unnecessary copy and pasting unless I refactor the synth code. For now it's okay as-is I might return to do some cleanup once I'm to the polishing stage.
+
+**Todo:**
+Tomorrow
+- [ ] Add the light over the strict mode button.
+- [ ] Add an on/off switch.
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+
+Possible Future Improvements
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Test on Android and Windows.
+ 
+**Link to work:** [Free Code Camp – 2017-01-20 – Simon](https://codepen.io/bwyan/full/wggmQO)
