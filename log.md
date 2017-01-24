@@ -343,3 +343,39 @@ Possible Future Improvements
 - [ ] Test on Android and Windows.
  
 **Link to work:** [Free Code Camp – 2017-01-20 – Simon](https://codepen.io/bwyan/full/wggmQO)
+
+### Day 19: January 22, 2017
+
+**Today's Progress**: I added the light over the strict mode button and cleaned up some code here and there. I also added a Web Font from Adobe Edge.
+
+**Thoughts:** I probably spent more time looking for alternative to Google Fonts than I did coding, but it was still pretty fun.
+
+**Todo:**
+Tomorrow
+- [ ] Finish styling the controls: Counter, start button, strict mode toggle.
+- [ ] Start my portfolio page.
+
+Possible Future Improvements to Simon.
+- [ ] Add an on/off switch.
+- [ ] Add a proper sequencer using Web Audio API events.
+- [ ] Test on Android and Windows.
+ 
+**Link to work:** [Free Code Camp – 2017-01-22 – Simon](https://codepen.io/bwyan/full/wggmQO)
+
+### Day 20: January 23, 2017
+
+**Today's Progress**: I got a lot done tonight
+
+- [x] Finished the remaining user stories for my Simon game and added some extra flair.
+- [x] Fixed up my older projects, which had broken since 18 months ago due to changes in the APIs.
+- [x] Double-checked that I wasn't missing any user stories in my older projects.
+
+**Thoughts:** I'm just one algorithm and a simple portfolio page away from completing my Front End development certificate. There's no reason I can't do it by Wednesday.
+
+**Todo:**
+Tomorrow
+- [ ] Do the last @FreeCodeCamp algorithm challenge.
+- [ ] Finish my portfolio page.
+- [ ] Submit my Front End projects for final review!
+
+**Link to work:** [Free Code Camp – 2017-01-23 – Simon](https://codepen.io/bwyan/full/wggmQO)
