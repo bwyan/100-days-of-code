@@ -379,3 +379,16 @@ Tomorrow
 - [ ] Submit my Front End projects for final review!
 
 **Link to work:** [Free Code Camp – 2017-01-23 – Simon](https://codepen.io/bwyan/full/wggmQO)
+
+### Day 21: January 24, 2017
+
+**Today's Progress**: I worked on my portfolio page and discovered I do not like writing about myself.
+
+**Thoughts:** The writing took longer than I thought. I'm hoping to add the images, give it some polish, and wrap up by the end of the week.
+
+**Todo:**
+- [ ] Do the last @FreeCodeCamp algorithm challenge.
+- [ ] Finish my portfolio page.
+- [ ] Submit my Front End projects for final review!
+
+**Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
