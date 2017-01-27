@@ -392,3 +392,16 @@ Tomorrow
 - [ ] Submit my Front End projects for final review!
 
 **Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
+
+### Day 22: January 26, 2017
+
+**Today's Progress**: I worked on my portfolio page some more. Got the assets posted on GitHub and tweaked the thumbnail styling. I wrestled for a while with the thumbnail not wrapping properly and didn't resolve it.
+
+**Thoughts:** In the original FCC curriculum (when I started this portfolio), it was required to use Bootstrap. I'm not enjoying the amount of nested `div` elements needed to make it work though, and without writing the CSS myself, it's hard to diagnose problems like the one I had with wrapping.
+
+**Todo:**
+- [ ] Do the last @FreeCodeCamp algorithm challenge.
+- [ ] Finish my portfolio page.
+- [ ] Submit my Front End projects for final review!
+
+**Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
