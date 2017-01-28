@@ -405,3 +405,21 @@ Tomorrow
 - [ ] Submit my Front End projects for final review!
 
 **Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
+
+### Day 23: January 27, 2017
+
+**Today's Progress**: Boom!
+
+- [x] Do the last @FreeCodeCamp algorithm challenge.
+- [x] Finish my portfolio page.
+- [x] Submit my Front End projects for final review!
+- [x] Get my Front End dev certificate!!!
+
+**Thoughts:** I figured out the problems with my thumbnail gallery by (drum roll…) reading the documentation!! Turns out I needed a couple of divs to help with the spacing issues. I'm still not a fan of all the `div` elements that Bootstrap needs, but it got the job done for this.
+
+Also, this certificate was over two years in the making (one of them was a total hiatus, but the other was a lot of work). I'm proud of how much I learned from the projects and can't wait to start the React/Data Vis cert. I've debated spending more time tweaking the projects I've already done so they look nicer, but I'm so eager to move on and challenge myself with new things, rather than just play with the same code all over again.
+
+**Todo:** Start the Data Vis certification with Wes Bos' React for Beginners course. I'll do just enough of the course to get started on the projects, and then focus 80% on the projects and 20% on the tutorials.
+
+
+**Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
