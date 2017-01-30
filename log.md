@@ -423,3 +423,31 @@ Also, this certificate was over two years in the making (one of them was a total
 
 
 **Link to work:** [Free Code Camp – Portfolio](https://codepen.io/bwyan/full/OyJaoz/)
+
+### Day 24: January 28, 2017
+
+**Today's Progress**: I did the first 10 lessons in Wes Bos' React for Beginners course. It was a great update/refresher on React. A lot has changed since I toyed with it 18 months ago.
+
+I also used create-react-app to set up a project for my Markdown Previewer.
+
+**Thoughts:** I'm excited to be working with my own dev environments and moving away from Codepen for these projects. The learning curve is steeper, but I'm getting exposed to some great skills like working with npm and scripts.
+
+**Todo:** Set up a GitHub repo for my Markdown Previewer, and clone it to my other computer.
+
+**Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
+
+### Day 25: January 29, 2017
+
+**Today's Progress**: I set up a GitHub repo for my Markdown project, added the two React components I'll need, and got the project working on my other computer.
+
+I tried to eject the project to get Sass working, but I must have done something wrong because my css wasn't loading once I built the project.
+
+**Thoughts:** It was really empowering to push a project to GitHub, clone it on another machine, and install all of the dependencies, all wihout referencing any documentation. I'm getting the hang of this and it feels great.
+
+**Todo:** 
+
+- [ ] Add event listeners to my `<TextInput>` component that push the text into the `<Preview>` component.
+- [ ] Add marked.js to the project.
+- [ ] (if time allows) get marked.js to interpret markdown and put html into the `<Preview>` component.
+
+**Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
