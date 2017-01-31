@@ -451,3 +451,17 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] (if time allows) get marked.js to interpret markdown and put html into the `<Preview>` component.
 
 **Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
+
+### Day 26: January 30, 2017
+
+**Today's Progress**: I needed to get the project setup to use Sass, so I started over with react-custom-scripts and create-react-app. Fixed up my github repo too, so everything is ready to start working again tomorrow. I made a few basic tweaks to the CSS just to make sure the scripts are all working correctly (they are).
+
+**Thoughts:** Despite not getting any major progress done on the project itself, I'm really happy with my ability to read documentation, work with react-custom-scripts, and fix some issues I was having with my github repo getting out of sync between machines.
+
+**Todo:** 
+
+- [ ] Add event listeners to my `<TextInput>` component that push the text into the `<Preview>` component.
+- [ ] Add marked.js to the project.
+- [ ] (if time allows) get marked.js to interpret markdown and put html into the `<Preview>` component.
+
+**Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
