@@ -465,3 +465,20 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] (if time allows) get marked.js to interpret markdown and put html into the `<Preview>` component.
 
 **Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
+
+### Day 27: January 31, 2017
+
+**Today's Progress**: I finished the bulk of the Markdown Previewer project:
+
+- [x] Add event listeners to my `<TextInput>` component that push the text into the `<Preview>` component.
+- [x] Add marked.js to the project.
+- [x] (if time allows) get marked.js to interpret markdown.
+- [x] Add html-react-parser to put html into the `<Preview>` component with react elements instead of using `dangerouslySetInnerHTML`.
+
+**Thoughts:** I always forget how much work there is to write CSS from scratch after a reset and not rely on browser defaults. The majority of my remaining work is going to be finishing the styling.
+
+**Todo:** 
+
+- [ ] Finish the CSS for all of the html elements that markdown supports.
+
+**Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
