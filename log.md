@@ -482,3 +482,19 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] Finish the CSS for all of the html elements that markdown supports.
 
 **Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
+
+### Day 28: February 1, 2017
+
+**Today's Progress**: I worked on the CSS (with Sass) for my Markdown Previewer project:
+
+- [x] Create example.md for testing.
+- [x] Add stacked layout for smaller screens.
+- [x] Improve typography and fonts.
+
+**Thoughts:** I should be able to finish tweaking the styles tomorrow and call it done.
+
+**Todo:** 
+
+- [ ] Finish the CSS for all of the html elements that markdown supports.
+
+**Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
