@@ -499,7 +499,7 @@ I tried to eject the project to get Sass working, but I must have done something
 
 **Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
 
-### Day 28: February 1, 2017
+### Day 29: February 2, 2017
 
 **Today's Progress**: I finished my Markdown Previewer project:
 
@@ -513,3 +513,13 @@ I tried to eject the project to get Sass working, but I must have done something
 **Todo:** Deploy my Markdown project to GitHub Pages and then start scaffolding my next project.
 
 **Link to work:** [bwyan/fcc-md-preview (GitHub)](https://github.com/bwyan/fcc-md-preview)
+
+### Day 30: February 3, 2017
+
+**Today's Progress**: I posted my markdown previewer to GitHub pages and set up the environment for my Camper Leaderboard.
+
+**Thoughts:** Everything went smoothly and I can't wait to start on the project tomorrow.
+
+**Todo:** Start building the components for my next project and connect to the FCC APIs I need.
+
+**Link to work:** [Markdown Preview (GitHub Pages)](https://bwyan.github.io/fcc-md-preview)
