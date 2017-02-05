@@ -523,3 +523,19 @@ I tried to eject the project to get Sass working, but I must have done something
 **Todo:** Start building the components for my next project and connect to the FCC APIs I need.
 
 **Link to work:** [Markdown Preview (GitHub Pages)](https://bwyan.github.io/fcc-md-preview)
+
+### Day 31: February 4, 2017
+
+**Today's Progress**: My leaderboard is functionally complete.
+
+**Thoughts:** This was a pretty simple project and I'm happy with how much I remembered from my other react project and tutorials.
+
+**Todo:**
+
+- [ ] Improve accessibility on the toggle.
+- [ ] Improve the styling based on some of the beautiful leaderboard inspirations I found on pinterest.
+- [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
+- [ ] Set a fixed size for the table so that it doesn't flash when changing data.
+- [ ] Cache or otherwise store the results of each query to minimize requests and delays in toggling results.
+
+**Link to work:** [Camper Leaderboard (GitHub Pages)](https://bwyan.github.io/fcc-leaderboard)
