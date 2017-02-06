@@ -538,4 +538,23 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] Set a fixed size for the table so that it doesn't flash when changing data.
 - [ ] Cache or otherwise store the results of each query to minimize requests and delays in toggling results.
 
-**Link to work:** [Camper Leaderboard (GitHub Pages)](https://bwyan.github.io/fcc-leaderboard)
+**Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
+
+### Day 32: February 5, 2017
+
+**Today's Progress**: Continued work on my leaderboard project.
+
+- [x] Improve accessibility on the toggle.
+- [x] Improve the styling based on some of the beautiful leaderboard inspirations I found on pinterest.
+
+**Thoughts:** Just tweaking the css at this point, which is fun but could last forever. 
+
+**Todo:**
+
+- [ ]	Pin the toggle to the top of the screen when scrolling.
+- [ ] Improve the styling based on some of the beautiful leaderboard inspirations I found on pinterest.
+- [ ] Set a fixed size for the table so that it doesn't flash when changing data.
+- [ ] Cache or otherwise store the results of each query to minimize requests and delays in toggling results.
+- [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
+
+**Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
