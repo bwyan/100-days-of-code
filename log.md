@@ -558,3 +558,20 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
 
 **Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
+
+### Day 33: February 6, 2017
+
+**Today's Progress**: Continued work on my leaderboard project.
+
+- [x]	Pin the toggle to the top of the screen when scrolling (Works in Safari and FF. Graceful Degradation ftw.)
+- [x] Set a fixed size for the table so that it doesn't flash when changing data.
+
+**Thoughts:** I'm stuck with a table that's just a bit wider than my 320px min-width because the names aren't truncating. It's very tempting to move away from a table even though it's symantically correct.
+
+**Todo:**
+
+- [ ] Improve the styling based on some of the beautiful leaderboard inspirations I found on pinterest.
+- [ ] Cache or otherwise store the results of each query to minimize requests and delays in toggling results.
+- [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
+
+**Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
