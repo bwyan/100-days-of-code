@@ -575,3 +575,56 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
 
 **Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
+
+### Day 34: February 7, 2017
+
+**Today's Progress**: Continued tweaking the styling on my leaderboard project, fixed an issue with table sizing, and added new styling for wider screens.
+
+**Thoughts:** The problem with the sizing turned out to be that I was using `<col></col>` instead of `<col />`. Once I did that, everything worked just fine.
+
+**Todo:**
+
+- [ ] Improve the styling based on some of the beautiful leaderboard inspirations I found on pinterest.
+- [ ] Cache or otherwise store the results of each query to minimize requests and delays in toggling results.
+- [ ] Turn the camper row into its own component (mostly just for a hypothetical case of reusing the same display in other places).
+
+**Link to work:** [Camper Leaderboard](https://github.com/bwyan/fcc-leaderboard)
+
+### Day 35: February 9, 2017
+
+**Today's Progress**: Finished my Leaderboard (except for caching and refactoring) and set up / started scaffolding my recipe app.
+
+**Thoughts:** The problem with the sizing turned out to be that I was using `<col></col>` instead of `<col />`. Once I did that, everything worked just fine.
+
+**Todo:**
+
+
+
+**Link to work:** [Camper Leaderboard](https://bwyan.github.com/fcc-leaderboard)
+
+### Day 36: February 10, 2017
+
+**Today's Progress**: Created the Editor and RecipeList components for my Recipe Box app.
+
+**Thoughts:** I was pretty successful but didn't have much time.
+
+**Todo:**
+- [ ] Build the Editor form and hook it up so it updates the App's state.
+- [ ] Pass the state into the Recipe List and display a list of recipes.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 37: February 11, 2017
+
+**Today's Progress**: Finished the items I set it yesterday's Todo.
+
+- [x] Build the Editor form and hook it up so it updates the App's state.
+- [x] Pass the state into the Recipe List and display a list of recipes.
+
+**Thoughts:** I'm not happy with how long it took me. I'm relying too much on looking at my previous React projects for reference, rather than relying on my knowledge. I need to be able to apply my knowledge to new contexts (like this project). I'm specifically struggling with how to set unique keys for items in an array when iterating over an array and into DOM elements.
+
+**Todo:**
+- [ ] Set unique keys for each element.
+- [ ] Figure out how I want to present my recipe details before building any more components or behaviors.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
