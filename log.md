@@ -628,3 +628,17 @@ I tried to eject the project to get Sass working, but I must have done something
 - [ ] Figure out how I want to present my recipe details before building any more components or behaviors.
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 38: February 12, 2017
+
+**Today's Progress**:I decided to use a sidebar/viewer pattern for the UI, so that helped make up my mind on how to build the components. I built the components I needed and hooked them up to set a global "CurrentRecipe" state.
+
+**Thoughts:** I'm still not happy with how much trial and error I'm using, but I *am* happy with how I'm able to quickly solve problem that aren't react-specific, such as what to do if a component is expecting data and doesn't receive it.
+
+I would like to get more fluent in React so that my code is elegant and throws fewer errors when I first write it. I'd also like to start working more with functional stateless components.
+
+**Todo:**
+- [ ] Enhance the editor so it can create a new recipe or edit an existing one.
+- [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
