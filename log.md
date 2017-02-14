@@ -642,3 +642,15 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 39: February 13, 2017
+
+**Today's Progress**: I changed App so that it only shows the editor when it's called for, and got the editor to call up an existing recipe. 
+
+**Thoughts:** I'm getting a *little* faster at adding and changing components accurately, but it still requires more thinking than working with JS or jQuery, where I find the answer is more often at my fingertips.
+
+**Todo:**
+- [ ] Enhance the editor so it can create a new recipe or edit an existing one.
+- [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
