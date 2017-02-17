@@ -655,7 +655,7 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
 
-### Day 39: February 15, 2017
+### Day 40: February 15, 2017
 
 **Today's Progress**: Slowly working through the features in my app.
 
@@ -664,8 +664,24 @@ I would like to get more fluent in React so that my code is elegant and throws f
 **Thoughts:** I tried a way of handling the editor that involved the App holding a lot more state (and having to pass it to the editor). The one advantage was that I could then show a recipe while creating a new recipe. I decided to simplify because it didn't seem like the extra functionality was worth the complexity. If I did need to create that feature, I'd want to find a different way of coding it.
 
 **Todo:**
-- [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
 - [ ] Save the App's state in LocalStorage.
+- [ ] Work on styling.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 41: February 16, 2017
+
+**Today's Progress**: Slowly working through the features in my app.
+
+- [x] In the RecipeViewer, set a unique key for each ingredient in the list when displaying the ingredients.
+- [x] Refactored a couple of if statements as ternary operators to clean up App's render return.
+- [x] Save the App's state in LocalStorage.
+
+**Thoughts:** I tried a way of handling the editor that involved the App holding a lot more state (and having to pass it to the editor). The one advantage was that I could then show a recipe while creating a new recipe. I decided to simplify because it didn't seem like the extra functionality was worth the complexity. If I did need to create that feature, I'd want to find a different way of coding it.
+
+**Todo:**
+- [ ] Enable recipe deletion.
+- [ ] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
 - [ ] Work on styling.
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
