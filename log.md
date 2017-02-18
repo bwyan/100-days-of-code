@@ -685,3 +685,16 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Work on styling.
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 42: February 17, 2017
+
+**Today's Progress**: 
+- [x] Enable recipe deletion.
+
+**Thoughts:** I got stuck with an infinite loop caused by not setting up the button handler correctly. I needed to use `onClick={() => this.deleteRecipe}` but I left out the arrow function, which caused the button to fire immediately and repeatedly on page load. That took most of my hour to debug, but once I found it, the rest was easy.
+
+**Todo:**
+- [ ] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
+- [ ] Work on styling.
+
+**Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
