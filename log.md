@@ -698,3 +698,35 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Work on styling.
 
 **Link to work:** [Recipe Box](https://github.com/bwyan/fcc-recipe)
+
+### Day 43: February 18, 2017
+
+**Today's Progress**: 
+- [x] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
+- [x] Set editor and viewer so that only one or the other are ever displayed.
+- [x] Set default recipes to avoid a totally empty state for new users.
+- [x] Started work on the first stages of the layout.
+
+**Thoughts:** I got a lot done today. It feels good to make meaningful progress and not break things.
+
+**Todo:**
+- [ ] Work on styling.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 44: February 19, 2017
+
+**Today's Progress**: I worked on the UI behavior and styling.
+
+- [x] Make the sidebar slide out of view with a toggle, and when clicking "new recipe".
+- [x] Work on mobile layout.
+- [x] Minor adjustments to component styling.
+
+**Thoughts:** I got a lot done again today, and I'm also seeing the benefit of breaking nearly every element into components. Even though it might seem unnecessary in a smaller project, it makes reuse easier later on.
+
+**Todo:**
+- [ ] Hide the sidebar automatically when selecting a recipe.
+- [ ] Keep sidebar in view at all times on larger screens.
+- [ ] Continue styling improvements.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
