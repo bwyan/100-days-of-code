@@ -745,3 +745,17 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Continue styling and layout improvements.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 46: February 21, 2017
+
+**Today's Progress**: I continued work on the UI behavior and styling.
+- [x] When the sidebar is showing on small screens, dim the background and make it hide the sidebar if tapped.
+- [x] Minor layout changes.
+
+**Thoughts:** I keep thinking it'd be easier to use a UI framework that already has elements like my sidebar, but this is so much more and rewarding. I wrote my first functional stateless component as well, which is so nice and clean!
+
+**Todo:**
+- [ ] Continue styling and layout improvements.
+- [ ] Add `visibility` to the DimmerLayer to improve accessibility, and make the transition animate.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
