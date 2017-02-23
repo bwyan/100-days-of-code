@@ -756,6 +756,22 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Todo:**
 - [ ] Continue styling and layout improvements.
+- [ ] Make the content area scrollable.
 - [ ] Add `visibility` to the DimmerLayer to improve accessibility, and make the transition animate.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 47: February 22, 2017
+
+**Today's Progress**: Short day because I got a late start. Just a couple minor improvements:
+
+- [x] Add `visibility` to the DimmerLayer to improve accessibility, and make the transition animate.
+- [x] Fixed a bug preventing the `dimmer-layer` from filling the full width of the screen.
+
+**Thoughts:** I keep thinking it'd be easier to use a UI framework that already has elements like my sidebar, but this is so much more and rewarding. I wrote my first functional stateless component as well, which is so nice and clean!
+
+**Todo:**
+- [ ] Continue styling and layout improvements.
+- [ ] Make the content area scrollable.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
