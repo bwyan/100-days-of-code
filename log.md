@@ -775,3 +775,16 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Make the content area scrollable.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 48: February 24, 2017
+
+**Today's Progress**: I got the sidebar scrolling working well, and did a few minor styling tweaks (button sizes, margins, etc.)
+
+**Thoughts:** I've wrestled with a lot of different techniques for making fixed-height elements with scrollable content, but finally found one that works consistently.
+
+**Todo:**
+- [ ] Fix the landscape scrolling behavior (probably by setting the sidebar to `position: fixed` but making sure it's still visible).
+- [ ] Continue styling and layout improvements.
+- [ ] Make the content area scrollable.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
