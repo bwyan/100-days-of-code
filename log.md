@@ -780,7 +780,7 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Today's Progress**: I got the sidebar scrolling working well, and did a few minor styling tweaks (button sizes, margins, etc.)
 
-**Thoughts:** I've wrestled with a lot of different techniques for making fixed-height elements with scrollable content, but finally found one that works consistently.
+**Thoughts:** I've wrestled with a lot of different techniques for making fixed-height elements with scrollable content, but finally found one that works consistently. I also got my iPhone to connect to localhost, which makes testing way easier. If I only knew it was as easy as connecting to my computer's IP:3000.
 
 **Todo:**
 - [ ] Fix the landscape scrolling behavior (probably by setting the sidebar to `position: fixed` but making sure it's still visible).
