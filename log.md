@@ -788,3 +788,17 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Make the content area scrollable.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 49: February 26, 2017
+
+**Today's Progress**: Spent the hour working on a fix for…
+
+- [x] Fix the landscape scrolling behavior (probably by setting the sidebar to `position: fixed` but making sure it's still visible).
+
+**Thoughts:** On iPhone 7+ in landscape, the sidebar is too tall, but in the responsive design tool in Safari, it looks correct. I'll need to 
+
+**Todo:**
+- [ ] Continue styling and layout improvements.
+- [ ] Make the content area scrollable.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
