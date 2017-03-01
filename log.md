@@ -802,3 +802,18 @@ I would like to get more fluent in React so that my code is elegant and throws f
 - [ ] Make the content area scrollable.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 50: February 28, 2017
+
+**Today's Progress**: Finished my recipe box!
+
+- [x] Added more recipes 
+- [x] Finished enough styling tweaks to feel happy with the app overall.
+
+**Thoughts:** Yesterday I mentioned that on iPhones in landscape, the sidebar is too tall, but in the responsive design tool in Safari, it looks correct. I figured out that it's due to how Safari handles showing and hiding the toolbar. If I give the content a good flick, the toolbar goes away and the page looks correct. 
+
+Overall this was a really fun project and it's cool to see how far it's come from when I was first building form components and wondering how they'd all fit together. I spent more time on it than I planned, but that's mainly because I was having fun figuring out how to build a native-style app in a web browser.
+
+Starting tomorrow, I'm going to re-evalute my 100daysofcode schedule because I expect a strenuous work and home life for the next two weeks. May need to take 2 nights/week to rest and recover.
+
+**Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
