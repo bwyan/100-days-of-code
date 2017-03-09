@@ -814,6 +814,22 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 Overall this was a really fun project and it's cool to see how far it's come from when I was first building form components and wondering how they'd all fit together. I spent more time on it than I planned, but that's mainly because I was having fun figuring out how to build a native-style app in a web browser.
 
-Starting tomorrow, I'm going to re-evalute my 100daysofcode schedule because I expect a strenuous work and home life for the next two weeks. May need to take 2 nights/week to rest and recover.
+Starting tomorrow, I'm going to re-evalute my 100daysofcode schedule because I expect a strenuous work and home life for the next two weeks. May need to take 2 nights/week to rest and recover.  
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
+
+### Day 51: March 8, 2017
+
+**Today's Progress**: Started Conway's Game of Life
+
+- [x] Set up new react project.
+- [x] Scaffolded Grid, Row, and Cell components.
+- [x] Studied the rules of the game.
+
+**Thoughts:** This was my first time writing JavaScript in about 2 weeks and first time writing any code in 8 days. I took a much-needed week off, and I'm happy to be back to coding daily (that's the plan!) again.
+
+This particular project feels a lot more Computer-sciency than the last few, and I'm looking forward to the challenge.
+
+Finally, I found a github project for doing Pixel Grids in React, but I've decided to try building my own and see how that goes first.
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
