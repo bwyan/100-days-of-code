@@ -833,3 +833,19 @@ This particular project feels a lot more Computer-sciency than the last few, and
 Finally, I found a github project for doing Pixel Grids in React, but I've decided to try building my own and see how that goes first.
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 52: March 9, 2017
+
+**Today's Progress**: Worked on Conway's Game of Life
+
+- [x] Make grid adjust it's layout based on the row and column values held in the App's state.
+- [x] Determine a data store for the board's alive cells. (I'm using an array of arrays)
+- [x] Passed alive cells state into the Grid and Row components.
+
+**Thoughts:** Everything was going great and I didn't need to reference any material to get this working. But I bumped into an issue that stumped me: I can't seem to use indexOf within my component. It works in the console with React dev tools, but I'm getting an error when I try putting it in my code. This is blocking my progress so it's the number one thing I need to do unless I can think of a workaround. (I don't want to store every cell's alive state in an object—it just feels too heavy.)
+
+**Todo:**
+- [ ] Figure out how to work with `indexOf` on props.
+- [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells)
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
