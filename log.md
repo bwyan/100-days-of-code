@@ -845,7 +845,31 @@ Finally, I found a github project for doing Pixel Grids in React, but I've decid
 **Thoughts:** Everything was going great and I didn't need to reference any material to get this working. But I bumped into an issue that stumped me: I can't seem to use indexOf within my component. It works in the console with React dev tools, but I'm getting an error when I try putting it in my code. This is blocking my progress so it's the number one thing I need to do unless I can think of a workaround. (I don't want to store every cell's alive state in an object—it just feels too heavy.)
 
 **Todo:**
+
 - [ ] Figure out how to work with `indexOf` on props.
 - [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells)
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 52: March 9, 2017 UPDATE
+
+**Today's Progress**: I just couldn't resist, and kept poking around after I comitted my log. The issue is that I didn't have enough empty arrays to match the number of rows, so the "undefined" error was due to the array address returning undefined. Tonight's easy fix was to create fewer rows, but I'll need a function that keeps the right number of arrays in `aliveCells`.
+
+**Todo:**
+
+- [ ] Build a function to update the `is alive` state to match the number of rows (and remove column values greater than the current number of columns).
+- [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells).
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 53: March 10, 2017
+
+**Today's Progress**: 
+
+- [x] Built a function `setGridDimensions` that updates the `is alive` state to match the number of rows (and remove column values greater than the current number of columns).
+
+**Todo:**
+
+- [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells).
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
