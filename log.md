@@ -890,3 +890,20 @@ Finally, I found a github project for doing Pixel Grids in React, but I've decid
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 55: March 12, 2017
+
+**Today's Progress**: 
+-[x] Scaffold the algorithm that plays one turn of the game.
+
+**Thoughts:** I didn't have much time today but managed to write most of the method. It's not quite working yet, but I think it's due to a helper method `isAlive`. Tomorrow I'll add some `console.log` statements and that'll make it easy to track down the broken point(s).
+
+**Todo**:
+
+-[ ] Build the algorithm that plays one turn of the game.
+-[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Build the rest of the UI components (board size, start/stop button, etc.)
+-[ ] Ignore click events while the game is playing.
+
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
