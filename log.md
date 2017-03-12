@@ -870,6 +870,23 @@ Finally, I found a github project for doing Pixel Grids in React, but I've decid
 
 **Todo:**
 
-- [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells).
+- [ ] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells so that they know how to report their own coordinates).
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 54: March 11, 2017
+
+**Today's Progress**: 
+- [x] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells so that they know how to report their own coordinates).
+
+**Thoughts:** Wow. That was a really fun coding session. Everything was flowing, my code wasn't generating errors, and I hardly had to look anything up. I really feel like I'm starting to get it now. Javacript continues to feel easier and my brain understands how to get most of the common tasks done in React without much thinkng. I think I spent more time scratching out the "algorithm" than I did connecting everything in React.
+
+**Todo**:
+
+-[ ] Build the algorithm that plays one turn of the game.
+-[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Build the rest of the UI components (board size, start/stop button, etc.)
+-[ ] Ignore click events while the game is playing.
+
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
