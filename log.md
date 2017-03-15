@@ -907,3 +907,21 @@ Finally, I found a github project for doing Pixel Grids in React, but I've decid
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 56: March 14, 2017
+
+**Today's Progress**: 
+I nearly finished one of the most important methods, `setCellToNextStageOfLife`, however I need to have it update all the cells at once instead of updating as it iterates over the loop (which changes the results).
+
+I also started the most important method, `setGameToNextStageOfLife`. It works, but it's dependent on the changes I mentioned above.
+
+**Thoughts:** This took a little longer than I thought, partly because I got interrupted, and partly because I was placing some of my nested if statements in the wrong levels. Between debugging and remembering where I left off, it added up to more time spent than I hoped. I think I have a clear path to finish the methods tomorrow though.
+
+**Todo**:
+
+-[ ] Finish the algorithm that plays one turn of the game. Ensure that it updates state for all cells at the same time.
+-[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Build the rest of the UI components (board size controls, start/stop/clear buttons)
+
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
