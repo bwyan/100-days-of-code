@@ -922,6 +922,25 @@ I also started the most important method, `setGameToNextStageOfLife`. It works, 
 -[ ] Finish the algorithm that plays one turn of the game. Ensure that it updates state for all cells at the same time.
 -[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
 -[ ] Build the rest of the UI components (board size controls, start/stop/clear buttons)
-
+-[ ] Refactor to improve efficiency.
+-[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 57: March 15, 2017
+
+**Today's Progress**: 
+-[x] Finished `setCellToNextStageOfLife`and `setGameToNextStageOfLife`. 
+-[x] Added (non working) Start/Stop/Clear buttons.
+
+**Thoughts:** Both of the methods are working well, but my algorithm needs some optimization. Right now it takes nearly a second to play one turn on a 20x30 grid.
+
+**Todo**:
+
+-[ ] Optimize the algorithm that plays one turn of the game.
+-[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+-[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
