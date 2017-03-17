@@ -937,6 +937,8 @@ I also started the most important method, `setGameToNextStageOfLife`. It works, 
 
 **Todo**:
 
+THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE THE NUMBER OF 'NEIGHBORS' THAT HAVE TO BE CHECKED FOR EACH CELL.
+
 -[ ] Optimize the algorithm that plays one turn of the game.
 -[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
 -[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
@@ -944,3 +946,30 @@ I also started the most important method, `setGameToNextStageOfLife`. It works, 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
+
+### Day 58: March 16, 2017
+
+**Today's Progress**: I worked on optimizing my algorithm:
+
+-[ ] Fixed a bug that was causing the dead cells to evaluate incorrectly.
+-[x] Create a default state so I can test the changes under the same conditions each time.
+-[x] Refactored my approach to determining which cells are neighbors, by only generating neighbors as needed for testing, rather than generating all 8 neighbors each time. For example, if a dead cell has four alive neighbors, it won't come to life, so we don't need to get neighbor coordinates for neighbors 5 to 8.
+-[x] Reordered some conditionals and added `break`s to remove unnecessary loop iterations.
+-[x] Found a several more optimizations to implement tomorrow (see below).
+
+**Thoughts:** Some of my work was trial-and-error, but looking through the code and thinking about all the steps required, I was able to find several ways to simplify. I'd love to learn a methodical approach to optimization, but this was a good start.
+
+**Todo**:
+#### Optimizations
+-[ ] Move from if else to switch statements where possible.
+-[ ] Set rules for corner and edge cells and test cells against those first.
+-[ ] Refactor the algo to use `makeAlive` and `makeDead` methods instead of `toggleIsAliveState` (because we already know whether the cell will need to be made alive or dead, it's wasteful to check that again).
+-[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+
+#### Overall
+-[ ] Optimize the algorithm that plays one turn of the game.
+-[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+-[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
