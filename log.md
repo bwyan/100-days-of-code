@@ -951,7 +951,7 @@ THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE TH
 
 **Today's Progress**: I worked on optimizing my algorithm:
 
--[ ] Fixed a bug that was causing the dead cells to evaluate incorrectly.
+-[x] Fixed a bug that was causing the dead cells to evaluate incorrectly.
 -[x] Create a default state so I can test the changes under the same conditions each time.
 -[x] Refactored my approach to determining which cells are neighbors, by only generating neighbors as needed for testing, rather than generating all 8 neighbors each time. For example, if a dead cell has four alive neighbors, it won't come to life, so we don't need to get neighbor coordinates for neighbors 5 to 8.
 -[x] Reordered some conditionals and added `break`s to remove unnecessary loop iterations.
@@ -973,3 +973,32 @@ THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE TH
 -[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 59: March 17, 2017
+
+**Today's Progress**: I worked on optimizing my algorithm:
+
+-[x] Move from if else to switch statements where possible.
+-[x] Refactor the to use `addToCellsToMakeAlive` and `addToCellsToMakeDead` methods instead of `toggleIsAliveState`, and remove extra `setState`s.
+-[x] Hook up a "next" button to step through generations.
+
+Which means I can check this one off:
+-[x] Optimize the algorithm that plays one turn of the game.
+
+**Thoughts:** 
+
+
+**Todo**:
+#### Overall
+
+-[ ] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+-[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+#### Other performance tweaks if needed/desired
+
+-[ ] Set rules for corner and edge cells and test cells against those first.
+-[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
