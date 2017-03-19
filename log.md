@@ -1002,3 +1002,26 @@ Which means I can check this one off:
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
+### Day 60: March 18, 2017
+
+**Today's Progress**: I hooked up the controls, and sorta got the looping to work:
+
+-[x] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+-[ ] Hook up the start/stop and clear buttons.
+
+**Thoughts:** 
+I can click my "next" button to advance the board in about 24ms. However, with `setInterval` it's taking over 450ms, no matter what values I pass in. I'll need to figure out another way to let the game run indefinitely. Recursion won't work becuase of the number of method instances it would create.
+
+**Todo**:
+#### Overall
+
+-[ ] Improve the speed that the game can run at.
+-[ ] Hook up the board size fields to state.
+-[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+#### Other performance tweaks if needed/desired
+
+-[ ] Set rules for corner and edge cells and test cells against those first.
+-[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
