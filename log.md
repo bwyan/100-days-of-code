@@ -1042,3 +1042,59 @@ The solution I came up with for speeding up the game is both ingenious and total
 -[ ] Light styling (I'm not going to go crazy with this one).
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 62: March 21, 2017
+
+**Today's Progress**: 
+-[x] Hook up the board size fields to state.
+-[x] Add react-debounce to board size fields to prevent unnecessary data clearing.
+-[x] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+**Thoughts:** 
+It was nice to move away from the heavier lifting and do some easier tasks today. That's a good reminder to myself that if I'm feeling overwhelmed or unmotivated, or want a break, it might be a good time to put the bigger things on hold (when I can) and do some cleanup and simpler tasks.
+
+**Todo**:
+-[ ] When I first arrive at the board, it will randomly generate a board and start playing.
+-[ ] Light styling (I'm not going to go crazy with styling this project).
+-[ ] More General cleanup (mainly remove commented out code or unused methods).
+-[ ] Do I need to enable wrap-around handling for edges?
+
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 63: March 22, 2017
+
+**Today's Progress**: 
+-[x] When I first arrive at the board, it will randomly generate a board and start playing.
+-[x] Basic visual tweaks.
+
+**Thoughts:** 
+It was nice to move away from the heavier lifting and do some easier tasks today. That's a good reminder to myself that if I'm feeling overwhelmed or unmotivated, or want a break, it might be a good time to put the bigger things on hold (when I can) and do some cleanup and simpler tasks.
+
+**Todo**:
+-[ ] Light styling (I'm not going to go crazy with styling this project).
+-[ ] More General cleanup (mainly remove commented out code or unused methods).
+-[ ] Do I need to enable wrap-around handling for edges?
+
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 64: March 24, 2017
+
+**Today's Progress**: 
+-[x] Add limits on the number of rows and columns that can be used.
+-[x] Add error message when number rows or columns is exceeded.
+-[x] Add start/stop button states.
+-[x] Light styling and layout changes.
+-[x] General cleanup (I left some commented out code in the project because I'm hoping some day a React expert can explain why certain things were behaving oddly).
+
+**Thoughts:** 
+I'm done! I double-checked that I did all the user stories, and I did. What a great feeling! This one definitely challenged me but it never felt too hard. I enjoyed working on the more CS-based parts of it, like the algorithm, but also liked the feeling of implementing most of my ideas "The React Way" without having to think too hard about it or "translate" my idea from the way I would have done it in jQuery.
+
+One other tidbit: I finally encountered a case where it made more sense to store state in a child component than in the root component. (My GameControls form has an error message that can be shown/hidden.)
+
+**Todo**:
+-[ ] Start the next project.
+
+
+**Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life). [Conway's Game Of Life (demo)](https://bwyan.github.io/fcc-life).
