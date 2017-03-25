@@ -1098,3 +1098,18 @@ One other tidbit: I finally encountered a case where it made more sense to store
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life). [Conway's Game Of Life (demo)](https://bwyan.github.io/fcc-life).
+
+### Day 65: March 25, 2017
+
+**Today's Progress**: 
+-[x] Set up environment and repo for my Roguelike Dungeon Crawler.
+-[x] Planned a model for my state and some other aspects of the project.
+
+**Thoughts:** 
+
+
+**Todo**:
+-[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
+-[ ] Build a level
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
