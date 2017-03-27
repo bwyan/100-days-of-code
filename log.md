@@ -1106,10 +1106,27 @@ One other tidbit: I finally encountered a case where it made more sense to store
 -[x] Planned a model for my state and some other aspects of the project.
 
 **Thoughts:** 
-
+It's always fun but a little intimidating to start a new project. I'm looking forward to it though!
 
 **Todo**:
 -[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
 -[ ] Build a level
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 65: March 26, 2017
+
+**Today's Progress**: 
+-[x] Learned about tilemaps and decided on a data structure. Built a simple map object.
+-[x] Built a basic character object.
+
+**Thoughts:** 
+So far, this isn't so bad. The reading I did about tile maps (once I learned what they were called) confirmed my hunch that I should use a simple array or array of arrays. I'm starting out with an array of arrays so that I can re-use some of my code from the Game of Life project.
+
+As I started writing the code today, I could sense my brain getting primed to figure out the details. At the moment, it feels like my biggest bottleneck will be typing the code—not wrestling with how to implement it. Let's see if that optimism carries through the whole project!
+
+**Todo**:
+-[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
+-[ ] Build a 'real' level (and possibly a level editor if I want more than a couple small levels!).
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
