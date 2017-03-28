@@ -1114,7 +1114,7 @@ It's always fun but a little intimidating to start a new project. I'm looking fo
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
 
-### Day 65: March 26, 2017
+### Day 66: March 26, 2017
 
 **Today's Progress**: 
 -[x] Learned about tilemaps and decided on a data structure. Built a simple map object.
@@ -1128,5 +1128,31 @@ As I started writing the code today, I could sense my brain getting primed to fi
 **Todo**:
 -[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
 -[ ] Build a 'real' level (and possibly a level editor if I want more than a couple small levels!).
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 67: March 27, 2017
+
+**Today's Progress**: I did a lot of scaffolding:
+
+-[x] Create `data/weapons.js` with a Weapon constructor and a weapons object.
+-[x] Create maps.js to store level map data.
+-[x] Create playerLevels to store stats (max health, attack, etc.) for each experience level.
+-[x] Bring in the Grid, Row, and Cell (now Board, Row, and Tile) components from my Game of Life project.
+
+**Thoughts:** 
+My comment about my bottleneck being the typing is totally true so far. That could change, but for now it's a blast to type furiously to get all the ideas out as quick as possible. The scope and scale of this project—in terms of the amount of data and components I'll need—prompted me to get more organized in how I store my code. With the game of life, I didn't mind keeping it all in one place, but even by the end of that project, it was getting tough to manage. For this project, I'm forcing myself to be disciplined with code organization, even though at first it feels like it's slowing me down a little.
+
+**Todo**:
+-[ ] Build what I need to get a simple level to appear.
+-[ ] Build the HUD to show player stats and game info.
+-[ ] Build the methods needed to move around the board and get stopped by walls.
+-[ ] Build the methods needed to pick up weapons and health.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
