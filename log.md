@@ -1156,3 +1156,29 @@ My comment about my bottleneck being the typing is totally true so far. That cou
 -[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 68: March 28, 2017
+
+**Today's Progress**: I did a lot of scaffolding:
+-[x] Build everything I need to get a simple level to appear.
+-[x] Build the methods needed to move around the board and get stopped by walls.
+
+**Thoughts:**
+This continues to be an easy project in terms of the algorithms and methods needed, and yet I'm learning a lot from it. As with yesterday, I'm thinking a lot about how to organize my code including where to put each piece, what to name my variables and methods, how to structure the data in my data files, how to keep functions relatively small, etc.
+
+There's definitely a balance to strike between overbuilding and building for the future, I'm sure I'll need to refactor various pieces during the process, but so far it's working well and most of the code feels pretty clean. One thing I'd like to explore is moving some of my App's methods into a separate file, just so it doesn't get too long. Before I do, I want to read up on the best practices for doing so.
+
+I'm most proud that I found a use for Classes in my tiles and weapons files, which saves a lot of typing and allows me to add new features to the objects as the game grows. 
+
+**Todo**:
+-[ ] Hook up keyboard event listeners to control player movement.
+-[ ] Build the HUD to show player stats and game info.
+-[ ] Build the methods needed to pick up weapons and health.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
