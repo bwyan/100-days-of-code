@@ -1182,3 +1182,28 @@ I'm most proud that I found a use for Classes in my tiles and weapons files, whi
 -[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 69: March 29, 2017
+
+**Today's Progress**: Refactor Party!
+-[x] Refactored every function that interacts with the map, so my tilemaps can use flat arrays instead of nested arrays.
+-[x] Added getTile and getTileIndex methods to enable flat arrays.
+-[x] Refactored a few methods to improve readability.
+
+**Thoughts:**
+A trusted engineer at work suggested that I refactor my game to use flat arrays for my tilemaps instead of nested arrays. I thought it would make for more complex-looking code (always having to derive the tile coordinates from an index, or vice-versa). However, he pointed out that once you have the functions, getTile and getTileIndex, the code is more readable and also easier to maintain in the long run.
+
+I decided to go for it before the project got any larger. It was a fun exercise to keep making changes and tracking down all the console errors I was getting, until finally everything worked again. Even though I don't have any new features today, I'm glad for both the sake of my education and the sake of the project that I spent tonight refactoring.
+
+**Todo**:
+-[ ] Hook up keyboard event listeners to control player movement.
+-[ ] Build the HUD to show player stats and game info.
+-[ ] Build the methods needed to pick up weapons and health.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
