@@ -1207,3 +1207,24 @@ I decided to go for it before the project got any larger. It was a fun exercise 
 -[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 70: March 29, 2017
+
+**Today's Progress**:
+-[x] Hook up keyboard event listeners to control player movement.(Arrow keys and WASD.)
+-[x] Split 'handleMove' into three methods: `handleKeyDown`, `nextPlayerCoordinates`, and `handleMove`.
+-[x] Build the HUD to show player stats and game info.
+
+**Thoughts:**
+A little refactoring? Key bindings? Some new components? This is a really productive night!
+
+**Todo**:
+-[ ] Build the methods needed to pick up weapons and health.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
