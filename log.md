@@ -1228,3 +1228,26 @@ A little refactoring? Key bindings? Some new components? This is a really produc
 -[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 71: March 29, 2017
+
+**Today's Progress**:
+-[x] Add an Item class that can provide multiple rewards.
+-[x] Build `changeWeapon()` to let the player pick up new weapons.
+-[x] Build `pickUpItem()` to pick up an item and earn it's rewards.
+
+**Thoughts:**
+This was a little tougher than I thought because it exposed some flaws in my architecture (they're fixed now). I also got stuck when I realized I can't add weapons to the board (the weapons file is separate from the rest of the tiles, so I need to figure that out).
+
+**Todo**:
+-[ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
+-[ ] `changeWeapon()` should drop the old weapon on the player's tile.
+-[ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
