@@ -1208,7 +1208,7 @@ I decided to go for it before the project got any larger. It was a fun exercise 
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
 
-### Day 70: March 29, 2017
+### Day 70: March 30, 2017
 
 **Today's Progress**:
 -[x] Hook up keyboard event listeners to control player movement.(Arrow keys and WASD.)
@@ -1229,7 +1229,7 @@ A little refactoring? Key bindings? Some new components? This is a really produc
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
 
-### Day 71: March 29, 2017
+### Day 71: March 31, 2017
 
 **Today's Progress**:
 -[x] Add an Item class that can provide multiple rewards.
@@ -1243,6 +1243,52 @@ This was a little tougher than I thought because it exposed some flaws in my arc
 -[ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
 -[ ] `changeWeapon()` should drop the old weapon on the player's tile.
 -[ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+-[ ] Prevent the player from earning more health than their level allows.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 72: April 1, 2017
+
+**Today's Progress**:
+-[x] Fixed key bindings methods so they work with all browsers.
+
+**Thoughts:**
+I tested my game in Safari and discovered that it wasn't responding to my keyboard shortcuts. It appeared that by using `window.addEventListener`, I wasn't getting `event.key` from my events in Safari. I looked for a way to bind keydown listerners to my root component, but couldn't find one. After a bunch of searches, I discovered a simpler solution, which was to use `event.keyCode` instead.
+
+**Todo**:
+-[ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
+-[ ] `changeWeapon()` should drop the old weapon on the player's tile.
+-[ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+-[ ] Prevent the player from earning more health than their level allows.
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build some 'real' levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 73: April 2, 2017
+
+**Today's Progress**:
+-[x] `changeWeapon()` should drop the old weapon on the player's tile (so you can get it later).
+-[x] `changeWeapon()` should work correctly whether a weapon is in a package or loose.
+-[x] Refactor `tiles` to allow me to place weapons on the board.
+-[x] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+
+**Thoughts:**
+Today's todos were all fairly easy again in terms of getting the code to do what I want. But this game continues to make me think about app architecture and code organization more than any project I've done. I'm getting a good taste of OOP, and encountering a lot of opportunities to refactor and keep methods smaller and more modular. 
+
+**Todo**:
+-[ ] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
+-[ ] Prevent the player from earning more health than their level allows.
 -[ ] Build an enemies.js file to store enemy names and stats.
 -[ ] Build the methods needed to fight enemies.
 -[ ] Build the methods needed to "exit" a level and go to the next one.
