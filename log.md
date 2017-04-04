@@ -1297,3 +1297,29 @@ Today's todos were all fairly easy again in terms of getting the code to do what
 -[ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 74: April 3, 2017
+
+**Today's Progress**:
+-[x] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
+-[x] Set up a helpers.js to move a lot of the game rules out of the App component.
+-[x] Moved `changePlayerHealth()` to helpers.js and bound it to `this` in the constructor.
+-[x] Prevent the player from earning more health than their level allows.
+-[x] Add methods for updating player health, xp, and level.
+
+**Thoughts:** The code cleanup continues and it's so much fun to discover a simpler way to write something that I've already written, or discover an opportunity to write a generalized function that can replace 2 or 3 others.
+
+As I've mentioned in previous entries, some of these code improvements might not benefit me if I don't actually go back and change things later, but doing them helps me learn about *why* they're important, train myself to spot opportunities in the future, and reinforce them in my brain (like I did with binding `this`).
+
+I've been wondering how I could move functions out of the app component and still use `this` in them. Turns out, I already new the answer and I just had to apply my knowledge. The answer is to bind this to the function in the constructor. Duh!
+
+**Todo**:
+-[ ] Build an enemies.js file to store enemy names and stats.
+-[ ] Build the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: move the map to a scrolling tile map.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
