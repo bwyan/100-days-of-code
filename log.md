@@ -1323,3 +1323,24 @@ I've been wondering how I could move functions out of the app component and stil
 -[ ] Bonus: move the map to a scrolling tile map.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 75: April 5, 2017
+
+**Today's Progress**:
+-[x] Build an enemies.js file to store enemy names and stats.
+-[x] Build several of the methods needed to fight enemies.
+
+**Thoughts:**
+Combat has quite a few pieces. To keep things simpler, I could have loaded the enemy stats into the board, but it felt like a weird place to store that info because I would be mudying the purpose of the tilemap. Instead, I'm storing enemy state in a different part of the model, and only keeping the enemy id on the board.
+
+Like many decisions I've made with this game, I think there's more benefit to this in theory than there is for getting the game done quickly. If I were under a tight deadline, this might be an area where I could cut corners.
+
+**Todo**:
+-[ ] Finish the methods needed to fight enemies.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: move the map to a scrolling tile map.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
