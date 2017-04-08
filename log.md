@@ -1344,3 +1344,21 @@ Like many decisions I've made with this game, I think there's more benefit to th
 -[ ] Bonus: move the map to a scrolling tile map.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 76: April 7, 2017
+
+**Today's Progress**:
+-[x] Finish the methods needed to fight enemies, kill them, and pick up their treasures.
+
+**Thoughts:** Combat is done! It took quite a few methods, but that's because I'm trying to keep them small and single-purposed whenever I can. As far as helper methods go, the last thing I need to do is support level changing.
+
+**Todo**:
+-[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+-[ ] Build a second test level to prep for changing levles.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
