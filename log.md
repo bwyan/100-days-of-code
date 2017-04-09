@@ -1112,7 +1112,7 @@ It's always fun but a little intimidating to start a new project. I'm looking fo
 -[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
 -[ ] Build a level
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 66: March 26, 2017
 
@@ -1129,7 +1129,7 @@ As I started writing the code today, I could sense my brain getting primed to fi
 -[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
 -[ ] Build a 'real' level (and possibly a level editor if I want more than a couple small levels!).
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 67: March 27, 2017
 
@@ -1155,7 +1155,7 @@ My comment about my bottleneck being the typing is totally true so far. That cou
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 68: March 28, 2017
 
@@ -1181,7 +1181,7 @@ I'm most proud that I found a use for Classes in my tiles and weapons files, whi
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 69: March 29, 2017
 
@@ -1206,7 +1206,7 @@ I decided to go for it before the project got any larger. It was a fun exercise 
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 70: March 30, 2017
 
@@ -1227,7 +1227,7 @@ A little refactoring? Key bindings? Some new components? This is a really produc
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 71: March 31, 2017
 
@@ -1251,7 +1251,7 @@ This was a little tougher than I thought because it exposed some flaws in my arc
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 72: April 1, 2017
 
@@ -1273,7 +1273,7 @@ I tested my game in Safari and discovered that it wasn't responding to my keyboa
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 73: April 2, 2017
 
@@ -1296,7 +1296,7 @@ Today's todos were all fairly easy again in terms of getting the code to do what
 -[ ] Build some 'real' levels.
 -[ ] Helper UI for various states: game over, winning, etc.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 74: April 3, 2017
 
@@ -1322,7 +1322,7 @@ I've been wondering how I could move functions out of the app component and stil
 -[ ] Helper UI for various states: game over, winning, etc.
 -[ ] Bonus: move the map to a scrolling tile map.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 75: April 5, 2017
 
@@ -1343,7 +1343,7 @@ Like many decisions I've made with this game, I think there's more benefit to th
 -[ ] Helper UI for various states: game over, winning, etc.
 -[ ] Bonus: move the map to a scrolling tile map.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 76: April 7, 2017
 
@@ -1362,7 +1362,7 @@ Like many decisions I've made with this game, I think there's more benefit to th
 -[ ] Helper UI for various states: game over, winning, etc.
 -[ ] Bonus: change the map from fixed to scrollable.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 77: April 8, 2017
 
@@ -1381,7 +1381,7 @@ Like many decisions I've made with this game, I think there's more benefit to th
 -[ ] Helper UI for various states: game over, winning, etc.
 -[ ] Bonus: change the map from fixed to scrollable.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 78: April 9, 2017
 
@@ -1399,4 +1399,4 @@ Like many decisions I've made with this game, I think there's more benefit to th
 -[ ] Helper UI for various states: game over, winning, etc.
 -[ ] Bonus: change the map from fixed to scrollable.
 
-**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
