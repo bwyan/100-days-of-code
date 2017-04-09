@@ -1353,8 +1353,46 @@ Like many decisions I've made with this game, I think there's more benefit to th
 **Thoughts:** Combat is done! It took quite a few methods, but that's because I'm trying to keep them small and single-purposed whenever I can. As far as helper methods go, the last thing I need to do is support level changing.
 
 **Todo**:
+-[ ] Add a method that makes the enemy attack the player.
 -[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
 -[ ] Build a second test level to prep for changing levles.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 77: April 8, 2017
+
+**Today's Progress**:
+-[x] Fixed a bug in `getEnemyIndex`that broke combat in optimized builds.
+-[x] Add a method that makes the enemy attack the player.
+
+**Thoughts:** Didn't have a lot of time for this session, but I fixed two important things. I learned never to rely on `.constructor.name` as a way of testing the class name of an object, becuase your build tools might change the name. I also made it so enemies fight back. The game should be a little more challenging now.
+
+**Todo**:
+-[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+-[ ] Build a second test level to prep for changing levels.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-life).
+
+### Day 78: April 9, 2017
+
+**Today's Progress**:
+-[x] Added spread operators (`{...something}`) to methods that update state.
+
+**Thoughts:**  I wasn't using spread operators before, which means I was directly mutating state (bad idea in React). A side effect of fixing that was that I introduced a bug in which some of the methods created race conditions if they call `setState` and also call another method that calls `setState`. They weren't showing up before because I was mutating state directly instead of working with potentially outdated copies of the state. I fixed it by putting the `setState` call before the other function call.
+
+**Todo**:
+-[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+-[ ] Build a second test level to prep for changing levels.
 -[ ] Build the methods needed to "exit" a level and go to the next one.
 -[ ] Build a level editor.
 -[ ] Build the game levels.
