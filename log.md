@@ -1404,9 +1404,8 @@ Like many decisions I've made with this game, I think there's more benefit to th
 ### Day 79: April 10, 2017
 
 **Today's Progress**:
-Really productive session today once I got going. I had a couple of false starts as I determined that my implementation was either too complex or simply wouldn't work, and then I arrived at a solution that works really well.
-
-My next steps would be to add a wider field of view and prevent wraparound issues. For now, those are resolved by keeping the viewable area in any direction from the player no more than the thickness of the wall (1 tile).
+-[x] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+-[x] Allow dark mode to be toggled in code. 
 
 **Thoughts:** 
 -[x] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
@@ -1414,6 +1413,25 @@ My next steps would be to add a wider field of view and prevent wraparound issue
 
 **Todo**:
 -[ ] Refactor code into modules to reduce the number of methods in App.js.
+-[ ] Add UI to toggle dark mode.
+-[ ] Build a second test level to prep for changing levels.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
+### Day 80: April 11, 2017
+
+**Today's Progress**:
+-[ ] Refactor code into modules to reduce the number of methods in App.js.
+
+**Thoughts:** 
+I feel like I have way too many `this` bindings in the app's constructor, but I'm not sure how to reduce them. Many of my helper functions need to access `this.state`, and without binding `this` in the App component, I'm not sure how to make it work. However, it's nice to have my App component be so much smaller, even if it's not totally optimized.
+
+**Todo**:
 -[ ] Add UI to toggle dark mode.
 -[ ] Build a second test level to prep for changing levels.
 -[ ] Build the methods needed to "exit" a level and go to the next one.
