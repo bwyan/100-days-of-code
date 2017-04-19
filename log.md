@@ -1426,7 +1426,7 @@ Like many decisions I've made with this game, I think there's more benefit to th
 ### Day 80: April 11, 2017
 
 **Today's Progress**:
--[ ] Refactor code into modules to reduce the number of methods in App.js.
+-[x] Refactor code into modules to reduce the number of methods in App.js.
 
 **Thoughts:** 
 I feel like I have way too many `this` bindings in the app's constructor, but I'm not sure how to reduce them. Many of my helper functions need to access `this.state`, and without binding `this` in the App component, I'm not sure how to make it work. However, it's nice to have my App component be so much smaller, even if it's not totally optimized.
@@ -1438,6 +1438,26 @@ I feel like I have way too many `this` bindings in the app's constructor, but I'
 -[ ] Build a level editor.
 -[ ] Build the game levels.
 -[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
+### Day 81: April 18, 2017
+
+**Today's Progress**:
+-[x] Add UI to toggle dark mode.
+
+**Thoughts:** 
+That took way too long. After a week off, I had forgotten how I planned to implement dark mode, which meant I lost a bunch of time implementing it the wrong way (and troubleshooting it when it didn't work). I also used `.map` where I should have been using`.forEach`, which caused a problem that took me a while to debug. Finally, I had an issue with a race condition, which reminded me that I shouldn't try to both call setState and call another method that calls setState within the same function.
+
+**Todo**:
+
+-[ ] Build a second test level to prep for changing levels.
+-[ ] Build the methods needed to "exit" a level and go to the next one.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Build the game over procedure.
 -[ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
