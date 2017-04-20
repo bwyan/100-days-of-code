@@ -1461,3 +1461,25 @@ That took way too long. After a week off, I had forgotten how I planned to imple
 -[ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
+### Day 82: April 19, 2017
+
+**Today's Progress**:
+-[x] Build a second test level to prep for changing levels.
+-[x] Build the methods needed to "exit" a level and go to the next one.
+
+**Thoughts:** 
+This worked fairly well, albeit with two issues I need to learn more about and then address.
+
+First, I couldn't move the warp method into helpers.js and still get it to work. I suspect it has to do with binding this, but I decided not to spend too much time on it tonight.
+
+Second, when loading a map, I thought I was copying the map data from maps.js, however when warping levels and then coming back to a level, it appears that the changes were being written to maps.js; Instead of a fresh copy of the level, I was getting the previously used one I made. This is actually okay for the sake of my game (once I added a method to prevent duplicate copies of the player from appearing on reload). But it's NOT okay for understanding how to properly copy data into a React component. I'll have to do some more studying so that I can resolve that issue correctly.
+
+**Todo**:
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Helper UI for various states: game over, winning, etc.
+-[ ] Build the game over procedure.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
