@@ -112,11 +112,13 @@ Once that's done, I'll start bulding the game logic in JS.
 
 **Todo:**
 Tomorrow
+
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
 - [ ] Add an on/off switch.
 
 Future
+
 - [ ] Work on the game logic in JS.
 
 **Link to work:** [Free Code Camp – 2017-01-09 – Simon](https://codepen.io/bwyan/full/jyPVBy/)
@@ -131,9 +133,11 @@ I struggled to get `setInterval()` or `setTimeout()` working with my sequence pl
 
 **Todo:**
 Tomorrow
+
 - [ ] Finish the sequence playback in JS so that the notes don't all play at once.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -149,9 +153,11 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Finish the sequence playback in JS so that the notes don't all play at once (hopefully for real this time).
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -169,9 +175,11 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Hook up the playback events to the UI so that the board lights up when the sounds play.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -190,10 +198,12 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Try MIDI.js to replace the poorly timed audio events, or look for another option.
 - [ ] Implement a better option to improve audio event timing.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -210,9 +220,11 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Create a demo app where I try Web Audio API oscillators in place of audio files.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -228,9 +240,11 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Replace `<audio>` elements in my Simon game with web audio oscillators.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -247,11 +261,13 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Remove the code that was playing audio files.
 - [ ] Add a proper sequencer using Web Audio API events.
 - [ ] Get it working on iOS and Android.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -268,11 +284,13 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Remove the code that was playing audio files.
 - [ ] Add a proper sequencer using Web Audio API events.
 - [ ] Get it working on iOS and Android.
 
 Future
+
 - [ ] Work on the game logic in JS.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Add the light over the strict mode button.
@@ -289,9 +307,11 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Finish the game logic: enforce strict mode, add the counter, speed up playback after 5 pads are played.
 
 Future
+
 - [ ] Disable click handlers while the sequence is playing.
 - [ ] Get it working on iOS and Android.
 - [ ] Add a proper sequencer using Web Audio API events.
@@ -311,10 +331,12 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Remove a couple of quick 'n dirty uses of jQuery so everything is vanilla JS.
 - [ ] Disable click handlers while the sequence is playing.
 
 Future
+
 - [ ] Add the light over the strict mode button.
 - [ ] Add an on/off switch.
 - [ ] Get the buttons working on iOS and Android.
@@ -326,6 +348,7 @@ Future
 ### Day 18: January 20, 2017
 
 **Today's Progress**: I finished everything I set out to do yesterday.
+
 - [x] Remove a couple of quick 'n dirty uses of jQuery so everything is vanilla JS.
 - [x] Disable click handlers while the sequence is playing (sort of).
 - [x] Get the sound working on iOS.
@@ -334,11 +357,13 @@ Future
 
 **Todo:**
 Tomorrow
+
 - [ ] Add the light over the strict mode button.
 - [ ] Add an on/off switch.
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 
 Possible Future Improvements
+
 - [ ] Add a proper sequencer using Web Audio API events.
 - [ ] Test on Android and Windows.
  
@@ -352,10 +377,12 @@ Possible Future Improvements
 
 **Todo:**
 Tomorrow
+
 - [ ] Finish styling the controls: Counter, start button, strict mode toggle.
 - [ ] Start my portfolio page.
 
-Possible Future Improvements to Simon.
+Possible Future Improvements to Simon
+
 - [ ] Add an on/off switch.
 - [ ] Add a proper sequencer using Web Audio API events.
 - [ ] Test on Android and Windows.
@@ -374,6 +401,7 @@ Possible Future Improvements to Simon.
 
 **Todo:**
 Tomorrow
+
 - [ ] Do the last @FreeCodeCamp algorithm challenge.
 - [ ] Finish my portfolio page.
 - [ ] Submit my Front End projects for final review!
@@ -386,7 +414,8 @@ Tomorrow
 
 **Thoughts:** The writing took longer than I thought. I'm hoping to add the images, give it some polish, and wrap up by the end of the week.
 
-**Todo:**
+**Todo**:
+
 - [ ] Do the last @FreeCodeCamp algorithm challenge.
 - [ ] Finish my portfolio page.
 - [ ] Submit my Front End projects for final review!
@@ -399,7 +428,8 @@ Tomorrow
 
 **Thoughts:** In the original FCC curriculum (when I started this portfolio), it was required to use Bootstrap. I'm not enjoying the amount of nested `div` elements needed to make it work though, and without writing the CSS myself, it's hard to diagnose problems like the one I had with wrapping.
 
-**Todo:**
+**Todo**:
+
 - [ ] Do the last @FreeCodeCamp algorithm challenge.
 - [ ] Finish my portfolio page.
 - [ ] Submit my Front End projects for final review!
@@ -608,7 +638,8 @@ I tried to eject the project to get Sass working, but I must have done something
 
 **Thoughts:** I was pretty successful but didn't have much time.
 
-**Todo:**
+**Todo**:
+
 - [ ] Build the Editor form and hook it up so it updates the App's state.
 - [ ] Pass the state into the Recipe List and display a list of recipes.
 
@@ -623,7 +654,8 @@ I tried to eject the project to get Sass working, but I must have done something
 
 **Thoughts:** I'm not happy with how long it took me. I'm relying too much on looking at my previous React projects for reference, rather than relying on my knowledge. I need to be able to apply my knowledge to new contexts (like this project). I'm specifically struggling with how to set unique keys for items in an array when iterating over an array and into DOM elements.
 
-**Todo:**
+**Todo**:
+
 - [ ] Set unique keys for each element.
 - [ ] Figure out how I want to present my recipe details before building any more components or behaviors.
 
@@ -637,7 +669,8 @@ I tried to eject the project to get Sass working, but I must have done something
 
 I would like to get more fluent in React so that my code is elegant and throws fewer errors when I first write it. I'd also like to start working more with functional stateless components.
 
-**Todo:**
+**Todo**:
+
 - [ ] Enhance the editor so it can create a new recipe or edit an existing one.
 - [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
 
@@ -649,7 +682,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I'm getting a *little* faster at adding and changing components accurately, but it still requires more thinking than working with JS or jQuery, where I find the answer is more often at my fingertips.
 
-**Todo:**
+**Todo**:
+
 - [ ] Enhance the editor so it can create a new recipe or edit an existing one.
 - [ ] In the RecipeViewer, set a unique key for each ingredient in the list.
 
@@ -663,7 +697,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I tried a way of handling the editor that involved the App holding a lot more state (and having to pass it to the editor). The one advantage was that I could then show a recipe while creating a new recipe. I decided to simplify because it didn't seem like the extra functionality was worth the complexity. If I did need to create that feature, I'd want to find a different way of coding it.
 
-**Todo:**
+**Todo**:
+
 - [ ] Save the App's state in LocalStorage.
 - [ ] Work on styling.
 
@@ -679,7 +714,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I tried a way of handling the editor that involved the App holding a lot more state (and having to pass it to the editor). The one advantage was that I could then show a recipe while creating a new recipe. I decided to simplify because it didn't seem like the extra functionality was worth the complexity. If I did need to create that feature, I'd want to find a different way of coding it.
 
-**Todo:**
+**Todo**:
+
 - [ ] Enable recipe deletion.
 - [ ] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
 - [ ] Work on styling.
@@ -688,12 +724,14 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 ### Day 42: February 17, 2017
 
-**Today's Progress**: 
+**Today's Progress**:
+
 - [x] Enable recipe deletion.
 
 **Thoughts:** I got stuck with an infinite loop caused by not setting up the button handler correctly. I needed to use `onClick={() => this.deleteRecipe}` but I left out the arrow function, which caused the button to fire immediately and repeatedly on page load. That took most of my hour to debug, but once I found it, the rest was easy.
 
-**Todo:**
+**Todo**:
+
 - [ ] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
 - [ ] Work on styling.
 
@@ -701,7 +739,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 ### Day 43: February 18, 2017
 
-**Today's Progress**: 
+**Today's Progress**:
+
 - [x] If recipe is open with ingredients, clicking New Recipe should clear the form inputs.
 - [x] Set editor and viewer so that only one or the other are ever displayed.
 - [x] Set default recipes to avoid a totally empty state for new users.
@@ -709,7 +748,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I got a lot done today. It feels good to make meaningful progress and not break things.
 
-**Todo:**
+**Todo**:
+
 - [ ] Work on styling.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
@@ -724,7 +764,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I got a lot done again today, and I'm also seeing the benefit of breaking nearly every element into components. Even though it might seem unnecessary in a smaller project, it makes reuse easier later on.
 
-**Todo:**
+**Todo**:
+
 - [ ] Hide the sidebar automatically when selecting a recipe.
 - [ ] Keep sidebar in view at all times on larger screens.
 - [ ] Continue styling improvements.
@@ -734,6 +775,7 @@ I would like to get more fluent in React so that my code is elegant and throws f
 ### Day 45: February 20, 2017
 
 **Today's Progress**: I worked on the UI behavior and styling.
+
 - [x] Hide the sidebar automatically when selecting a recipe.
 - [x] Show sidebar automatically when you'd otherwise get an empty content view (like if clicking Cancel while making a new recipe)
 - [x] Keep sidebar in view at all times on larger screens.
@@ -741,7 +783,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I need to spend some time learning modern CSS layout techniques. I spent a lot of time wrestling with Flexbox but ended up with very little to show for it. However, I'm happy with how many UI behavior improvements I was able to implement with React.
 
-**Todo:**
+**Todo**:
+
 - [ ] Continue styling and layout improvements.
 
 **Link to work:** [Recipe Box (Repo)](https://github.com/bwyan/fcc-recipe). [Recipe Box (demo)](https://bwyan.github.io/fcc-recipe).
@@ -749,12 +792,14 @@ I would like to get more fluent in React so that my code is elegant and throws f
 ### Day 46: February 21, 2017
 
 **Today's Progress**: I continued work on the UI behavior and styling.
+
 - [x] When the sidebar is showing on small screens, dim the background and make it hide the sidebar if tapped.
 - [x] Minor layout changes.
 
 **Thoughts:** I keep thinking it'd be easier to use a UI framework that already has elements like my sidebar, but this is so much more and rewarding. I wrote my first functional stateless component as well, which is so nice and clean!
 
-**Todo:**
+**Todo**:
+
 - [ ] Continue styling and layout improvements.
 - [ ] Make the content area scrollable.
 - [ ] Add `visibility` to the DimmerLayer to improve accessibility, and make the transition animate.
@@ -770,7 +815,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I keep thinking it'd be easier to use a UI framework that already has elements like my sidebar, but this is so much more and rewarding. I wrote my first functional stateless component as well, which is so nice and clean!
 
-**Todo:**
+**Todo**:
+
 - [ ] Continue styling and layout improvements.
 - [ ] Make the content area scrollable.
 
@@ -782,7 +828,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** I've wrestled with a lot of different techniques for making fixed-height elements with scrollable content, but finally found one that works consistently. I also got my iPhone to connect to localhost, which makes testing way easier. If I only knew it was as easy as connecting to my computer's IP:3000.
 
-**Todo:**
+**Todo**:
+
 - [ ] Fix the landscape scrolling behavior (probably by setting the sidebar to `position: fixed` but making sure it's still visible).
 - [ ] Continue styling and layout improvements.
 - [ ] Make the content area scrollable.
@@ -797,7 +844,8 @@ I would like to get more fluent in React so that my code is elegant and throws f
 
 **Thoughts:** On iPhone 7+ in landscape, the sidebar is too tall, but in the responsive design tool in Safari, it looks correct. I'll need to 
 
-**Todo:**
+**Todo**:
+
 - [ ] Continue styling and layout improvements.
 - [ ] Make the content area scrollable.
 
@@ -876,34 +924,36 @@ Finally, I found a github project for doing Pixel Grids in React, but I've decid
 
 ### Day 54: March 11, 2017
 
-**Today's Progress**: 
+**Today's Progress**:
+
 - [x] Build a function to toggle the "alive" state of a cell (will require setting up proper refs on the cells so that they know how to report their own coordinates).
 
 **Thoughts:** Wow. That was a really fun coding session. Everything was flowing, my code wasn't generating errors, and I hardly had to look anything up. I really feel like I'm starting to get it now. Javacript continues to feel easier and my brain understands how to get most of the common tasks done in React without much thinkng. I think I spent more time scratching out the "algorithm" than I did connecting everything in React.
 
 **Todo**:
 
--[ ] Build the algorithm that plays one turn of the game.
--[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Build the rest of the UI components (board size, start/stop button, etc.)
--[ ] Ignore click events while the game is playing.
+- [ ] Build the algorithm that plays one turn of the game.
+- [ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Build the rest of the UI components (board size, start/stop button, etc.)
+- [ ] Ignore click events while the game is playing.
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 55: March 12, 2017
 
-**Today's Progress**: 
--[x] Scaffold the algorithm that plays one turn of the game.
+**Today's Progress**:
+
+- [x] Scaffold the algorithm that plays one turn of the game.
 
 **Thoughts:** I didn't have much time today but managed to write most of the method. It's not quite working yet, but I think it's due to a helper method `isAlive`. Tomorrow I'll add some `console.log` statements and that'll make it easy to track down the broken point(s).
 
 **Todo**:
 
--[ ] Build the algorithm that plays one turn of the game.
--[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Build the rest of the UI components (board size, start/stop button, etc.)
--[ ] Ignore click events while the game is playing.
+- [ ] Build the algorithm that plays one turn of the game.
+- [ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Build the rest of the UI components (board size, start/stop button, etc.)
+- [ ] Ignore click events while the game is playing.
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
@@ -919,19 +969,20 @@ I also started the most important method, `setGameToNextStageOfLife`. It works, 
 
 **Todo**:
 
--[ ] Finish the algorithm that plays one turn of the game. Ensure that it updates state for all cells at the same time.
--[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Build the rest of the UI components (board size controls, start/stop/clear buttons)
--[ ] Refactor to improve efficiency.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+- [ ] Finish the algorithm that plays one turn of the game. Ensure that it updates state for all cells at the same time.
+- [ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Build the rest of the UI components (board size controls, start/stop/clear buttons)
+- [ ] Refactor to improve efficiency.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 57: March 15, 2017
 
-**Today's Progress**: 
--[x] Finished `setCellToNextStageOfLife`and `setGameToNextStageOfLife`. 
--[x] Added (non working) Start/Stop/Clear buttons.
+**Today's Progress**:
+
+- [x] Finished `setCellToNextStageOfLife`and `setGameToNextStageOfLife`. 
+- [x] Added (non working) Start/Stop/Clear buttons.
 
 **Thoughts:** Both of the methods are working well, but my algorithm needs some optimization. Right now it takes nearly a second to play one turn on a 20x30 grid.
 
@@ -939,10 +990,10 @@ I also started the most important method, `setGameToNextStageOfLife`. It works, 
 
 THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE THE NUMBER OF 'NEIGHBORS' THAT HAVE TO BE CHECKED FOR EACH CELL.
 
--[ ] Optimize the algorithm that plays one turn of the game.
--[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+- [ ] Optimize the algorithm that plays one turn of the game.
+- [ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
@@ -951,26 +1002,28 @@ THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE TH
 
 **Today's Progress**: I worked on optimizing my algorithm:
 
--[x] Fixed a bug that was causing the dead cells to evaluate incorrectly.
--[x] Create a default state so I can test the changes under the same conditions each time.
--[x] Refactored my approach to determining which cells are neighbors, by only generating neighbors as needed for testing, rather than generating all 8 neighbors each time. For example, if a dead cell has four alive neighbors, it won't come to life, so we don't need to get neighbor coordinates for neighbors 5 to 8.
--[x] Reordered some conditionals and added `break`s to remove unnecessary loop iterations.
--[x] Found a several more optimizations to implement tomorrow (see below).
+- [x] Fixed a bug that was causing the dead cells to evaluate incorrectly.
+- [x] Create a default state so I can test the changes under the same conditions each time.
+- [x] Refactored my approach to determining which cells are neighbors, by only generating neighbors as needed for testing, rather than generating all 8 neighbors each time. For example, if a dead cell has four alive neighbors, it won't come to life, so we don't need to get neighbor coordinates for neighbors 5 to 8.
+- [x] Reordered some conditionals and added `break`s to remove unnecessary loop iterations.
+- [x] Found a several more optimizations to implement tomorrow (see below).
 
 **Thoughts:** Some of my work was trial-and-error, but looking through the code and thinking about all the steps required, I was able to find several ways to simplify. I'd love to learn a methodical approach to optimization, but this was a good start.
 
 **Todo**:
 #### Optimizations
--[ ] Move from if else to switch statements where possible.
--[ ] Set rules for corner and edge cells and test cells against those first.
--[ ] Refactor the algo to use `makeAlive` and `makeDead` methods instead of `toggleIsAliveState` (because we already know whether the cell will need to be made alive or dead, it's wasteful to check that again).
--[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+
+- [ ] Move from if else to switch statements where possible.
+- [ ] Set rules for corner and edge cells and test cells against those first.
+- [ ] Refactor the algo to use `makeAlive` and `makeDead` methods instead of `toggleIsAliveState` (because we already know whether the cell will need to be made alive or dead, it's wasteful to check that again).
+- [ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
 
 #### Overall
--[ ] Optimize the algorithm that plays one turn of the game.
--[ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+
+- [ ] Optimize the algorithm that plays one turn of the game.
+- [ ] Get it to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
@@ -978,12 +1031,13 @@ THE BEST APPROACH MIGHT BE CREATING MORE IF STATEMENTS THAT ULTIMATELY REDUCE TH
 
 **Today's Progress**: I worked on optimizing my algorithm:
 
--[x] Move from if else to switch statements where possible.
--[x] Refactor the to use `addToCellsToMakeAlive` and `addToCellsToMakeDead` methods instead of `toggleIsAliveState`, and remove extra `setState`s.
--[x] Hook up a "next" button to step through generations.
+- [x] Move from if else to switch statements where possible.
+- [x] Refactor the to use `addToCellsToMakeAlive` and `addToCellsToMakeDead` methods instead of `toggleIsAliveState`, and remove extra `setState`s.
+- [x] Hook up a "next" button to step through generations.
 
 Which means I can check this one off:
--[x] Optimize the algorithm that plays one turn of the game.
+
+- [x] Optimize the algorithm that plays one turn of the game.
 
 **Thoughts:** 
 
@@ -991,14 +1045,14 @@ Which means I can check this one off:
 **Todo**:
 #### Overall
 
--[ ] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+- [ ] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [ ] Hook up the UI components (board size controls, start/stop/clear buttons) to state.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 #### Other performance tweaks if needed/desired
 
--[ ] Set rules for corner and edge cells and test cells against those first.
--[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+- [ ] Set rules for corner and edge cells and test cells against those first.
+- [ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
@@ -1006,8 +1060,8 @@ Which means I can check this one off:
 
 **Today's Progress**: I hooked up the controls, and sorta got the looping to work:
 
--[x] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
--[x] Hook up the start/stop and clear buttons.
+- [x] Get the game to repeat indefinitely (try `while gameIsRunning === true` or recursion with `componentDidUpdate`).
+- [x] Hook up the start/stop and clear buttons.
 
 **Thoughts:** 
 I can click my "next" button to advance the board in about 24ms. However, with `setInterval` it's taking over 450ms, no matter what values I pass in. I'll need to figure out another way to let the game run indefinitely. Recursion won't work becuase of the number of method instances it would create.
@@ -1015,78 +1069,84 @@ I can click my "next" button to advance the board in about 24ms. However, with `
 **Todo**:
 #### Overall
 
--[ ] Improve the speed that the game can run at.
--[ ] Hook up the board size fields to state.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+- [ ] Improve the speed that the game can run at.
+- [ ] Hook up the board size fields to state.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 #### Other performance tweaks if needed/desired
 
--[ ] Set rules for corner and edge cells and test cells against those first.
--[ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
+- [ ] Set rules for corner and edge cells and test cells against those first.
+- [ ] Think: are there other cases where we already know the outcome with certainty after only evaluating some of the neighbors?
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 61: March 20, 2017
 
-**Today's Progress**: 
--[x] Improve the speed that the game can run at (reliably down to ~80ms per generation).
--[x] Add Generation counter.
+**Today's Progress**:
+
+- [x] Improve the speed that the game can run at (reliably down to ~80ms per generation).
+- [x] Add Generation counter.
 
 **Thoughts:** 
 The solution I came up with for speeding up the game is both ingenious and totally insufficient: rather than call the "next generation" function directly, I simulate a click of the "next generation" button (which calls the same function). I have no idea why this works, but it must have something to do with calling the function/having to bind it properly with `const self = this`. I'll need to investigate further, but for now, this hackey fix will allow me to continue to the other aspects of the game.
 
 **Todo**:
 
--[ ] Hook up the board size fields to state.
--[ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
--[ ] Light styling (I'm not going to go crazy with this one).
+- [ ] Hook up the board size fields to state.
+- [ ] General cleanup (remove TODOs, console.log() statements, or commented out code)
+- [ ] Light styling (I'm not going to go crazy with this one).
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 62: March 21, 2017
 
-**Today's Progress**: 
--[x] Hook up the board size fields to state.
--[x] Add react-debounce to board size fields to prevent unnecessary data clearing.
--[x] General cleanup (remove TODOs, console.log() statements, or commented out code)
+**Today's Progress**:
+
+- [x] Hook up the board size fields to state.
+- [x] Add react-debounce to board size fields to prevent unnecessary data clearing.
+- [x] General cleanup (remove TODOs, console.log() statements, or commented out code)
 
 **Thoughts:** 
 It was nice to move away from the heavier lifting and do some easier tasks today. That's a good reminder to myself that if I'm feeling overwhelmed or unmotivated, or want a break, it might be a good time to put the bigger things on hold (when I can) and do some cleanup and simpler tasks.
 
 **Todo**:
--[ ] When I first arrive at the board, it will randomly generate a board and start playing.
--[ ] Light styling (I'm not going to go crazy with styling this project).
--[ ] More General cleanup (mainly remove commented out code or unused methods).
--[ ] Do I need to enable wrap-around handling for edges?
+
+- [ ] When I first arrive at the board, it will randomly generate a board and start playing.
+- [ ] Light styling (I'm not going to go crazy with styling this project).
+- [ ] More General cleanup (mainly remove commented out code or unused methods).
+- [ ] Do I need to enable wrap-around handling for edges?
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 63: March 22, 2017
 
-**Today's Progress**: 
--[x] When I first arrive at the board, it will randomly generate a board and start playing.
--[x] Basic visual tweaks.
+**Today's Progress**:
+
+- [x] When I first arrive at the board, it will randomly generate a board and start playing.
+- [x] Basic visual tweaks.
 
 **Thoughts:** 
 It was nice to move away from the heavier lifting and do some easier tasks today. That's a good reminder to myself that if I'm feeling overwhelmed or unmotivated, or want a break, it might be a good time to put the bigger things on hold (when I can) and do some cleanup and simpler tasks.
 
 **Todo**:
--[ ] Light styling (I'm not going to go crazy with styling this project).
--[ ] More General cleanup (mainly remove commented out code or unused methods).
--[ ] Do I need to enable wrap-around handling for edges?
+
+- [ ] Light styling (I'm not going to go crazy with styling this project).
+- [ ] More General cleanup (mainly remove commented out code or unused methods).
+- [ ] Do I need to enable wrap-around handling for edges?
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life).
 
 ### Day 64: March 24, 2017
 
-**Today's Progress**: 
--[x] Add limits on the number of rows and columns that can be used.
--[x] Add error message when number rows or columns is exceeded.
--[x] Add start/stop button states.
--[x] Light styling and layout changes.
--[x] General cleanup (I left some commented out code in the project because I'm hoping some day a React expert can explain why certain things were behaving oddly).
+**Today's Progress**:
+
+- [x] Add limits on the number of rows and columns that can be used.
+- [x] Add error message when number rows or columns is exceeded.
+- [x] Add start/stop button states.
+- [x] Light styling and layout changes.
+- [x] General cleanup (I left some commented out code in the project because I'm hoping some day a React expert can explain why certain things were behaving oddly).
 
 **Thoughts:** 
 I'm done! I double-checked that I did all the user stories, and I did. What a great feeling! This one definitely challenged me but it never felt too hard. I enjoyed working on the more CS-based parts of it, like the algorithm, but also liked the feeling of implementing most of my ideas "The React Way" without having to think too hard about it or "translate" my idea from the way I would have done it in jQuery.
@@ -1094,31 +1154,35 @@ I'm done! I double-checked that I did all the user stories, and I did. What a gr
 One other tidbit: I finally encountered a case where it made more sense to store state in a child component than in the root component. (My GameControls form has an error message that can be shown/hidden.)
 
 **Todo**:
--[ ] Start the next project.
+
+- [ ] Start the next project.
 
 
 **Link to work:** [Conway's Game Of Life (Repo)](https://github.com/bwyan/fcc-life). [Conway's Game Of Life (demo)](https://bwyan.github.io/fcc-life).
 
 ### Day 65: March 25, 2017
 
-**Today's Progress**: 
--[x] Set up environment and repo for my Roguelike Dungeon Crawler.
--[x] Planned a model for my state and some other aspects of the project.
+**Today's Progress**:
+
+- [x] Set up environment and repo for my Roguelike Dungeon Crawler.
+- [x] Planned a model for my state and some other aspects of the project.
 
 **Thoughts:** 
 It's always fun but a little intimidating to start a new project. I'm looking forward to it though!
 
 **Todo**:
--[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
--[ ] Build a level
+
+- [ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
+- [ ] Build a level
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 66: March 26, 2017
 
-**Today's Progress**: 
--[x] Learned about tilemaps and decided on a data structure. Built a simple map object.
--[x] Built a basic character object.
+**Today's Progress**:
+
+- [x] Learned about tilemaps and decided on a data structure. Built a simple map object.
+- [x] Built a basic character object.
 
 **Thoughts:** 
 So far, this isn't so bad. The reading I did about tile maps (once I learned what they were called) confirmed my hunch that I should use a simple array or array of arrays. I'm starting out with an array of arrays so that I can re-use some of my code from the Game of Life project.
@@ -1126,8 +1190,9 @@ So far, this isn't so bad. The reading I did about tile maps (once I learned wha
 As I started writing the code today, I could sense my brain getting primed to figure out the details. At the moment, it feels like my biggest bottleneck will be typing the code—not wrestling with how to implement it. Let's see if that optimism carries through the whole project!
 
 **Todo**:
--[ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
--[ ] Build a 'real' level (and possibly a level editor if I want more than a couple small levels!).
+
+- [ ] Start scaffolding the components, and reuse what I can from the `Grid`, `Row`, and `Cell` components in my Game of Life.
+- [ ] Build a 'real' level (and possibly a level editor if I want more than a couple small levels!).
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
@@ -1135,33 +1200,34 @@ As I started writing the code today, I could sense my brain getting primed to fi
 
 **Today's Progress**: I did a lot of scaffolding:
 
--[x] Create `data/weapons.js` with a Weapon constructor and a weapons object.
--[x] Create maps.js to store level map data.
--[x] Create playerLevels to store stats (max health, attack, etc.) for each experience level.
--[x] Bring in the Grid, Row, and Cell (now Board, Row, and Tile) components from my Game of Life project.
+- [x] Create `data/weapons.js` with a Weapon constructor and a weapons object.
+- [x] Create maps.js to store level map data.
+- [x] Create playerLevels to store stats (max health, attack, etc.) for each experience level.
+- [x] Bring in the Grid, Row, and Cell (now Board, Row, and Tile) components from my Game of Life project.
 
 **Thoughts:** 
 My comment about my bottleneck being the typing is totally true so far. That could change, but for now it's a blast to type furiously to get all the ideas out as quick as possible. The scope and scale of this project—in terms of the amount of data and components I'll need—prompted me to get more organized in how I store my code. With the game of life, I didn't mind keeping it all in one place, but even by the end of that project, it was getting tough to manage. For this project, I'm forcing myself to be disciplined with code organization, even though at first it feels like it's slowing me down a little.
 
 **Todo**:
--[ ] Build what I need to get a simple level to appear.
--[ ] Build the HUD to show player stats and game info.
--[ ] Build the methods needed to move around the board and get stopped by walls.
--[ ] Build the methods needed to pick up weapons and health.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Build what I need to get a simple level to appear.
+- [ ] Build the HUD to show player stats and game info.
+- [ ] Build the methods needed to move around the board and get stopped by walls.
+- [ ] Build the methods needed to pick up weapons and health.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 68: March 28, 2017
 
 **Today's Progress**: I did a lot of scaffolding:
--[x] Build everything I need to get a simple level to appear.
--[x] Build the methods needed to move around the board and get stopped by walls.
+- [x] Build everything I need to get a simple level to appear.
+- [x] Build the methods needed to move around the board and get stopped by walls.
 
 **Thoughts:**
 This continues to be an easy project in terms of the algorithms and methods needed, and yet I'm learning a lot from it. As with yesterday, I'm thinking a lot about how to organize my code including where to put each piece, what to name my variables and methods, how to structure the data in my data files, how to keep functions relatively small, etc.
@@ -1171,24 +1237,26 @@ There's definitely a balance to strike between overbuilding and building for the
 I'm most proud that I found a use for Classes in my tiles and weapons files, which saves a lot of typing and allows me to add new features to the objects as the game grows. 
 
 **Todo**:
--[ ] Hook up keyboard event listeners to control player movement.
--[ ] Build the HUD to show player stats and game info.
--[ ] Build the methods needed to pick up weapons and health.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Hook up keyboard event listeners to control player movement.
+- [ ] Build the HUD to show player stats and game info.
+- [ ] Build the methods needed to pick up weapons and health.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 69: March 29, 2017
 
 **Today's Progress**: Refactor Party!
--[x] Refactored every function that interacts with the map, so my tilemaps can use flat arrays instead of nested arrays.
--[x] Added getTile and getTileIndex methods to enable flat arrays.
--[x] Refactored a few methods to improve readability.
+
+- [x] Refactored every function that interacts with the map, so my tilemaps can use flat arrays instead of nested arrays.
+- [x] Added getTile and getTileIndex methods to enable flat arrays.
+- [x] Refactored a few methods to improve readability.
 
 **Thoughts:**
 A trusted engineer at work suggested that I refactor my game to use flat arrays for my tilemaps instead of nested arrays. I thought it would make for more complex-looking code (always having to derive the tile coordinates from an index, or vice-versa). However, he pointed out that once you have the functions, getTile and getTileIndex, the code is more readable and also easier to maintain in the long run.
@@ -1196,116 +1264,126 @@ A trusted engineer at work suggested that I refactor my game to use flat arrays 
 I decided to go for it before the project got any larger. It was a fun exercise to keep making changes and tracking down all the console errors I was getting, until finally everything worked again. Even though I don't have any new features today, I'm glad for both the sake of my education and the sake of the project that I spent tonight refactoring.
 
 **Todo**:
--[ ] Hook up keyboard event listeners to control player movement.
--[ ] Build the HUD to show player stats and game info.
--[ ] Build the methods needed to pick up weapons and health.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Hook up keyboard event listeners to control player movement.
+- [ ] Build the HUD to show player stats and game info.
+- [ ] Build the methods needed to pick up weapons and health.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 70: March 30, 2017
 
 **Today's Progress**:
--[x] Hook up keyboard event listeners to control player movement.(Arrow keys and WASD.)
--[x] Split 'handleMove' into three methods: `handleKeyDown`, `nextPlayerCoordinates`, and `handleMove`.
--[x] Build the HUD to show player stats and game info.
+
+- [x] Hook up keyboard event listeners to control player movement.(Arrow keys and WASD.)
+- [x] Split 'handleMove' into three methods: `handleKeyDown`, `nextPlayerCoordinates`, and `handleMove`.
+- [x] Build the HUD to show player stats and game info.
 
 **Thoughts:**
 A little refactoring? Key bindings? Some new components? This is a really productive night!
 
 **Todo**:
--[ ] Build the methods needed to pick up weapons and health.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Build the methods needed to pick up weapons and health.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 71: March 31, 2017
 
 **Today's Progress**:
--[x] Add an Item class that can provide multiple rewards.
--[x] Build `changeWeapon()` to let the player pick up new weapons.
--[x] Build `pickUpItem()` to pick up an item and earn it's rewards.
+
+- [x] Add an Item class that can provide multiple rewards.
+- [x] Build `changeWeapon()` to let the player pick up new weapons.
+- [x] Build `pickUpItem()` to pick up an item and earn it's rewards.
 
 **Thoughts:**
 This was a little tougher than I thought because it exposed some flaws in my architecture (they're fixed now). I also got stuck when I realized I can't add weapons to the board (the weapons file is separate from the rest of the tiles, so I need to figure that out).
 
 **Todo**:
--[ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
--[ ] `changeWeapon()` should drop the old weapon on the player's tile.
--[ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
--[ ] Prevent the player from earning more health than their level allows.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
+- [ ] `changeWeapon()` should drop the old weapon on the player's tile.
+- [ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+- [ ] Prevent the player from earning more health than their level allows.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 72: April 1, 2017
 
 **Today's Progress**:
--[x] Fixed key bindings methods so they work with all browsers.
+
+- [x] Fixed key bindings methods so they work with all browsers.
 
 **Thoughts:**
 I tested my game in Safari and discovered that it wasn't responding to my keyboard shortcuts. It appeared that by using `window.addEventListener`, I wasn't getting `event.key` from my events in Safari. I looked for a way to bind keydown listerners to my root component, but couldn't find one. After a bunch of searches, I discovered a simpler solution, which was to use `event.keyCode` instead.
 
 **Todo**:
--[ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
--[ ] `changeWeapon()` should drop the old weapon on the player's tile.
--[ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
--[ ] Prevent the player from earning more health than their level allows.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] Refactor to allow me to place weapons on the board (If I move weapons into tiles.js, I'll need to update `changeWeapon()`).
+- [ ] `changeWeapon()` should drop the old weapon on the player's tile.
+- [ ] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+- [ ] Prevent the player from earning more health than their level allows.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 73: April 2, 2017
 
 **Today's Progress**:
--[x] `changeWeapon()` should drop the old weapon on the player's tile (so you can get it later).
--[x] `changeWeapon()` should work correctly whether a weapon is in a package or loose.
--[x] Refactor `tiles` to allow me to place weapons on the board.
--[x] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
+
+- [x] `changeWeapon()` should drop the old weapon on the player's tile (so you can get it later).
+- [x] `changeWeapon()` should work correctly whether a weapon is in a package or loose.
+- [x] Refactor `tiles` to allow me to place weapons on the board.
+- [x] `pickUpItem` should accept coordinates as an argument and clear the item listed at the coordinates (if the coords match the item name).
 
 **Thoughts:**
 Today's todos were all fairly easy again in terms of getting the code to do what I want. But this game continues to make me think about app architecture and code organization more than any project I've done. I'm getting a good taste of OOP, and encountering a lot of opportunities to refactor and keep methods smaller and more modular. 
 
 **Todo**:
--[ ] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
--[ ] Prevent the player from earning more health than their level allows.
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build some 'real' levels.
--[ ] Helper UI for various states: game over, winning, etc.
+
+- [ ] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
+- [ ] Prevent the player from earning more health than their level allows.
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build some 'real' levels.
+- [ ] Helper UI for various states: game over, winning, etc.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 74: April 3, 2017
 
 **Today's Progress**:
--[x] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
--[x] Set up a helpers.js to move a lot of the game rules out of the App component.
--[x] Moved `changePlayerHealth()` to helpers.js and bound it to `this` in the constructor.
--[x] Prevent the player from earning more health than their level allows.
--[x] Add methods for updating player health, xp, and level.
+
+- [x] `tiles.js` should iterate over the weapons in `weapons.js` and add them to the tiles object.
+- [x] Set up a helpers.js to move a lot of the game rules out of the App component.
+- [x] Moved `changePlayerHealth()` to helpers.js and bound it to `this` in the constructor.
+- [x] Prevent the player from earning more health than their level allows.
+- [x] Add methods for updating player health, xp, and level.
 
 **Thoughts:** The code cleanup continues and it's so much fun to discover a simpler way to write something that I've already written, or discover an opportunity to write a generalized function that can replace 2 or 3 others.
 
@@ -1314,21 +1392,23 @@ As I've mentioned in previous entries, some of these code improvements might not
 I've been wondering how I could move functions out of the app component and still use `this` in them. Turns out, I already new the answer and I just had to apply my knowledge. The answer is to bind this to the function in the constructor. Duh!
 
 **Todo**:
--[ ] Build an enemies.js file to store enemy names and stats.
--[ ] Build the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: move the map to a scrolling tile map.
+
+- [ ] Build an enemies.js file to store enemy names and stats.
+- [ ] Build the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: move the map to a scrolling tile map.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 75: April 5, 2017
 
 **Today's Progress**:
--[x] Build an enemies.js file to store enemy names and stats.
--[x] Build several of the methods needed to fight enemies.
+
+- [x] Build an enemies.js file to store enemy names and stats.
+- [x] Build several of the methods needed to fight enemies.
 
 **Thoughts:**
 Combat has quite a few pieces. To keep things simpler, I could have loaded the enemy stats into the board, but it felt like a weird place to store that info because I would be mudying the purpose of the tilemap. Instead, I'm storing enemy state in a different part of the model, and only keeping the enemy id on the board.
@@ -1336,137 +1416,150 @@ Combat has quite a few pieces. To keep things simpler, I could have loaded the e
 Like many decisions I've made with this game, I think there's more benefit to this in theory than there is for getting the game done quickly. If I were under a tight deadline, this might be an area where I could cut corners.
 
 **Todo**:
--[ ] Finish the methods needed to fight enemies.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: move the map to a scrolling tile map.
+
+- [ ] Finish the methods needed to fight enemies.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: move the map to a scrolling tile map.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 76: April 7, 2017
 
 **Today's Progress**:
--[x] Finish the methods needed to fight enemies, kill them, and pick up their treasures.
+
+- [x] Finish the methods needed to fight enemies, kill them, and pick up their treasures.
 
 **Thoughts:** Combat is done! It took quite a few methods, but that's because I'm trying to keep them small and single-purposed whenever I can. As far as helper methods go, the last thing I need to do is support level changing.
 
 **Todo**:
--[ ] Add a method that makes the enemy attack the player.
--[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
--[ ] Build a second test level to prep for changing levles.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Add a method that makes the enemy attack the player.
+- [ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+- [ ] Build a second test level to prep for changing levles.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon).
 
 ### Day 77: April 8, 2017
 
 **Today's Progress**:
--[x] Fixed a bug in `getEnemyIndex`that broke combat in optimized builds.
--[x] Add a method that makes the enemy attack the player.
+
+- [x] Fixed a bug in `getEnemyIndex`that broke combat in optimized builds.
+- [x] Add a method that makes the enemy attack the player.
 
 **Thoughts:** Didn't have a lot of time for this session, but I fixed two important things. I learned never to rely on `.constructor.name` as a way of testing the class name of an object, becuase your build tools might change the name. I also made it so enemies fight back. The game should be a little more challenging now.
 
 **Todo**:
--[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
--[ ] Build a second test level to prep for changing levels.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+- [ ] Build a second test level to prep for changing levels.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 78: April 9, 2017
 
 **Today's Progress**:
--[x] Added spread operators (`{...something}`) to methods that update state.
+
+- [x] Added spread operators (`{...something}`) to methods that update state.
 
 **Thoughts:**  I wasn't using spread operators before, which means I was directly mutating state (bad idea in React). A side effect of fixing that was that I introduced a bug in which some of the methods created race conditions if they call `setState` and also call another method that calls `setState`. They weren't showing up before because I was mutating state directly instead of working with potentially outdated copies of the state. I fixed it by putting the `setState` call before the other function call.
 
 **Todo**:
--[ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
--[ ] Build a second test level to prep for changing levels.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+- [ ] Build a second test level to prep for changing levels.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 79: April 10, 2017
 
 **Today's Progress**:
--[x] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
--[x] Allow dark mode to be toggled in code. 
+
+- [x] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
+- [x] Allow dark mode to be toggled in code. 
 
 **Thoughts:** 
--[x] Build a 'cover' for the map to support dark mode (only see a few squares around the player at a time).
--[x] Allow dark mode to be toggled in code. 
+
+Worked great!
 
 **Todo**:
--[ ] Refactor code into modules to reduce the number of methods in App.js.
--[ ] Add UI to toggle dark mode.
--[ ] Build a second test level to prep for changing levels.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Refactor code into modules to reduce the number of methods in App.js.
+- [ ] Add UI to toggle dark mode.
+- [ ] Build a second test level to prep for changing levels.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 80: April 11, 2017
 
 **Today's Progress**:
--[x] Refactor code into modules to reduce the number of methods in App.js.
+
+- [x] Refactor code into modules to reduce the number of methods in App.js.
 
 **Thoughts:** 
 I feel like I have way too many `this` bindings in the app's constructor, but I'm not sure how to reduce them. Many of my helper functions need to access `this.state`, and without binding `this` in the App component, I'm not sure how to make it work. However, it's nice to have my App component be so much smaller, even if it's not totally optimized.
 
 **Todo**:
--[ ] Add UI to toggle dark mode.
--[ ] Build a second test level to prep for changing levels.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Add UI to toggle dark mode.
+- [ ] Build a second test level to prep for changing levels.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 81: April 18, 2017
 
 **Today's Progress**:
--[x] Add UI to toggle dark mode.
+
+- [x] Add UI to toggle dark mode.
 
 **Thoughts:** 
 That took way too long. After a week off, I had forgotten how I planned to implement dark mode, which meant I lost a bunch of time implementing it the wrong way (and troubleshooting it when it didn't work). I also used `.map` where I should have been using`.forEach`, which caused a problem that took me a while to debug. Finally, I had an issue with a race condition, which reminded me that I shouldn't try to both call setState and call another method that calls setState within the same function.
 
 **Todo**:
 
--[ ] Build a second test level to prep for changing levels.
--[ ] Build the methods needed to "exit" a level and go to the next one.
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Build the game over procedure.
--[ ] Bonus: change the map from fixed to scrollable.
+- [ ] Build a second test level to prep for changing levels.
+- [ ] Build the methods needed to "exit" a level and go to the next one.
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Build the game over procedure.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
 ### Day 82: April 19, 2017
 
 **Today's Progress**:
--[x] Build a second test level to prep for changing levels.
--[x] Build the methods needed to "exit" a level and go to the next one.
+
+- [x] Build a second test level to prep for changing levels.
+- [x] Build the methods needed to "exit" a level and go to the next one.
 
 **Thoughts:** 
 This worked fairly well, albeit with two issues I need to learn more about and then address.
@@ -1476,10 +1569,11 @@ First, I couldn't move the warp method into helpers.js and still get it to work.
 Second, when loading a map, I thought I was copying the map data from maps.js, however when warping levels and then coming back to a level, it appears that the changes were being written to maps.js; Instead of a fresh copy of the level, I was getting the previously used one I made. This is actually okay for the sake of my game (once I added a method to prevent duplicate copies of the player from appearing on reload). But it's NOT okay for understanding how to properly copy data into a React component. I'll have to do some more studying so that I can resolve that issue correctly.
 
 **Todo**:
--[ ] Build a level editor.
--[ ] Build the game levels.
--[ ] Helper UI for various states: game over, winning, etc.
--[ ] Build the game over procedure.
--[ ] Bonus: change the map from fixed to scrollable.
+
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Helper UI for various states: game over, winning, etc.
+- [ ] Build the game over procedure.
+- [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
