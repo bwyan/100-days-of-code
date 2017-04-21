@@ -1577,3 +1577,21 @@ Second, when loading a map, I thought I was copying the map data from maps.js, h
 - [ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
+### Day 84: April 21, 2017
+
+**Today's Progress**:
+
+- [x] Finish procedures for `initialize()` (part of `gameOver()`).
+
+**Thoughts:** 
+I just learned that you can use callbacks with `setState()`, which is going to make things so much easier! How did I learn it? Because I thought, "Gee, it'd be helpful to use a callback for this. I wonder if they work." Why did it take so log to think of it? I don't know, but I'm glad that I'm learning more each day and figuring out ways to apply my existing knowledge to new situations.
+
+**Todo**:
+
+- [ ] Build a level editor.
+- [ ] Build the game levels.
+- [ ] Add a notification UI for various states: game over, winning, etc.
+- [ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
