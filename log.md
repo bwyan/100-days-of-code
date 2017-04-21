@@ -1483,3 +1483,24 @@ Second, when loading a map, I thought I was copying the map data from maps.js, h
 -[ ] Bonus: change the map from fixed to scrollable.
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
+### Day 83: April 20, 2017
+
+**Today's Progress**:
+-[x] Fix map loading so it deep copies the maps.
+-[x] Fix combat so that enemy stats get copied instead of referenced.
+-[x] Start the game over procedure.
+
+**Thoughts:** 
+I resolved the second of last night's issues, and found a similar mistake that was causing a bug in one of the combat methods.
+
+The game over method is working somewhat, but it's causing an error in the final stage of combat. I'll try to resolve that tomorrow.
+
+**Todo**:
+-[ ] Finish the game over procedure.
+-[ ] Notification UI for various states: game over, winning, etc.
+-[ ] Build a level editor.
+-[ ] Build the game levels.
+-[ ] Bonus: change the map from fixed to scrollable.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
