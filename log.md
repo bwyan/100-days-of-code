@@ -1497,7 +1497,7 @@ I resolved the second of last night's issues, and found a similar mistake that w
 The game over method is working somewhat, but it's causing an error in the final stage of combat. I'll try to resolve that tomorrow.
 
 **Todo**:
--[ ] Finish the game over procedure.
+-[ ] Finish the game over procedure (lights should stay off, enemies should be clearable, etc.)
 -[ ] Notification UI for various states: game over, winning, etc.
 -[ ] Build a level editor.
 -[ ] Build the game levels.
