@@ -1617,3 +1617,30 @@ I just learned that you can use callbacks with `setState()`, which is going to m
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
+### Day 85: April 22, 2017
+
+**Today's Progress**:
+
+- [x] Merge changes between my two computers.
+- [x] Level Editor: Set Grid Dimensions via input fields.
+- [x] Level Editor: Update Grid so that the border always contains wall tiles.
+
+**Thoughts:** 
+That was fun. I needed to refresh on form interactions, but everything went pretty smoothly. A nice enhancement would be to maintain the position of any elements I've already added to the board, which will require moving the elements to new indices in the tileMap.""
+
+**Todo**:
+Tomorrow
+
+- [ ] Level Editor: Select the tile type I want to put on the board.
+- [ ] Level Editor: Click a cell to set the tile type.
+
+Future
+
+- [ ] Build 5 game levels.
+- [ ] Add a notification UI for various states: game over, winning, etc.
+- [ ] Refactor and add lots of comments
+- [ ] Bonus: change the map from fixed to scrollable.
+- [ ] Maintain the position of any elements I've already added to the board, which will require moving the elements to new indices in the tileMap.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
