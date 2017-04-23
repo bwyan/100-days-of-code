@@ -1644,3 +1644,29 @@ Future
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
+### Day 86: April 23, 2017
+
+**Today's Progress**:
+
+- [x] Fixed some bugs in yesterday's code and refactored setGridDimensions so each of the procedures is moved to its own method.
+- [x] Started a new method to keep existing tiles at their same coordinates.
+
+**Thoughts:** 
+I planned to work on the second task in the list above, but I discovered a few bugs in yesterday's work that needed to be fixed first. That was a nice gift because it also let me refactor some of my code and figure out ways to keep helper methods in their own library without having to bind as many helper methods to `this` in my App constructor.
+
+**Todo**:
+Tomorrow
+- [ ] Finish the method that keeps existing tiles at their same coordinates.
+- [ ] Level Editor: Select the tile type I want to put on the board.
+- [ ] Level Editor: Click a cell to set the tile type.
+
+Future
+
+- [ ] Build 5 game levels.
+- [ ] Add a notification UI for various states: game over, winning, etc.
+- [ ] Refactor and add lots of comments
+- [ ] Bonus: change the map from fixed to scrollable.
+- [ ] Maintain the position of any elements I've already added to the board, which will require moving the elements to new indices in the tileMap.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
