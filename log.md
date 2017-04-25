@@ -1670,3 +1670,30 @@ Future
 
 **Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
 
+### Day 87: April 24, 2017
+
+**Today's Progress**:
+
+- [x] Continued work on the method that keeps existing tiles at their same coordinates.
+
+**Thoughts:** 
+This was really frustrating. I understood *in theory* how to set a new index, but I was not thinking clearly about the difference between the current state and the new state, so I spent quite a while chasing bugs that I thought were async related, but were really problems with me referencing current position when I should be referencing new position, and vice versa.
+
+Sadly I have a bug in the code that's causing duplicate objects to appear sometimes, and causing wall tiles to be missing other times. Worse of all, the character is appearing twice at times.Hopefully I can wrap it up tomorrow. If not, I'm going to move on because I'd like to finish this project before the 100 days of code are done.
+
+**Todo**:
+Tomorrow
+- [ ] Finish debugging the method that keeps existing tiles at their same coordinates.
+- [ ] Level Editor: Select the tile type I want to put on the board.
+- [ ] Level Editor: Click a cell to set the tile type.
+
+Future
+
+- [ ] Build 5 game levels.
+- [ ] Add a notification UI for various states: game over, winning, etc.
+- [ ] Refactor and add lots of comments
+- [ ] Bonus: change the map from fixed to scrollable.
+- [ ] Maintain the position of any elements I've already added to the board, which will require moving the elements to new indices in the tileMap.
+
+**Link to work:** [Into the Dungeon (Repo)](https://github.com/bwyan/fcc-dungeon). [Into the Dungeon (Deploy)](https://bwyan.github.io/fcc-dungeon)
+
